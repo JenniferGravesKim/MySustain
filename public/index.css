@@ -1,5 +1,6 @@
 #mainbod{
-    background: url("bg2.jpg");
+/*    background: url("bg2.jpg");
+*/
     background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -128,6 +129,21 @@ a{
 #logo{
 	margin-top: 130px;
     opacity:1;
+}
+
+#logoblock{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: black;
+    opacity: 1.0;
+    border: 10px solid #ffffff;
+    transition: all 0.5s ease; 
+}
+
+#logoblock:hover{
+    opacity: 1.0;
+    border-radius: 30%;
 }
 
 #logotop{

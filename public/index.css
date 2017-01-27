@@ -357,7 +357,7 @@ a{
 
 .energybtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/energy.jpg) 0% 90% no-repeat;
+    background:url(energy.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -412,7 +412,7 @@ a{
 
 .energy:hover .energybtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/energy.jpg) 0% 90% no-repeat;
+    background:url(energy.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -438,7 +438,7 @@ a{
 
 .wastebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/waste.jpg) 0% 90% no-repeat;
+    background:url(waste.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -493,7 +493,7 @@ a{
 
 .waste:hover .wastebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/waste.jpg) 0% 90% no-repeat;
+    background:url(waste.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -518,7 +518,7 @@ a{
 
 .clothingbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/clothing.jpg) 0% 90% no-repeat;
+    background:url(clothing.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -573,7 +573,7 @@ a{
 
 .clothing:hover .clothingbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/clothing.jpg) 0% 90% no-repeat;
+    background:url(clothing.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -598,7 +598,7 @@ a{
 
 .pollutionbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/pollution.jpeg) 0% 90% no-repeat;
+    background:url(pollution.jpeg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -653,7 +653,7 @@ a{
 
 .pollution:hover .pollutionbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/pollution.jpeg) 0% 90% no-repeat;
+    background:url(pollution.jpeg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -678,7 +678,7 @@ a{
 
 .cosmeticsbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/cosmetics.jpg) 0% 90% no-repeat;
+    background:url(cosmetics.jpg) 0% 90% no-repeat;
     background-size: 125%;
     border: 0px solid #ffffff;
     color: white;
@@ -733,7 +733,7 @@ a{
 
 .cosmetics:hover .cosmeticsbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/cosmetics.jpg) 0% 90% no-repeat;
+    background:url(cosmetics.jpg) 0% 90% no-repeat;
     background-size: 125%;
     border-radius: 50%;
     opacity: 0.45;
@@ -758,7 +758,7 @@ a{
 
 .hairbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hair.jpg) 0% 90% no-repeat;
+    background:url(hair.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -813,7 +813,7 @@ a{
 
 .hair:hover .hairbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hair.jpg) 0% 90% no-repeat;
+    background:url(hair.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -838,7 +838,7 @@ a{
 
 .skincarebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/skincare.jpg) 0% 90% no-repeat;
+    background:url(skincare.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -893,7 +893,7 @@ a{
 
 .skincare:hover .skincarebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/skincare.jpg) 0% 90% no-repeat;
+    background:url(skincare.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -918,7 +918,7 @@ a{
 
 .hygienebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hygiene.jpg) 0% 90% no-repeat;
+    background:url(hygiene.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -973,7 +973,7 @@ a{
 
 .hygiene:hover .hygienebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hygiene.jpg) 0% 90% no-repeat;
+    background:url(hygiene.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -998,7 +998,7 @@ a{
 
 .vitaminsbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/vitamins.jpg) 0% 90% no-repeat;
+    background:url(vitamins.jpg) 0% 90% no-repeat;
     background-size: 125%;
     border: 0px solid #ffffff;
     color: white;
@@ -1053,7 +1053,7 @@ a{
 
 .vitamins:hover .vitaminsbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/vitamins.jpg) 0% 90% no-repeat;
+    background:url(vitamins.jpg) 0% 90% no-repeat;
     background-size: 125%;
     border-radius: 50%;
     opacity: 0.45;
@@ -1078,7 +1078,7 @@ a{
 
 .gmosbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/gmos.jpg) 0% 90% no-repeat;
+    background:url(gmos.jpg) 0% 90% no-repeat;
     background-size: 140%;
     border: 0px solid #ffffff;
     color: white;
@@ -1133,7 +1133,7 @@ a{
 
 .gmos:hover .gmosbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/gmos.jpg) 0% 90% no-repeat;
+    background:url(gmos.jpg) 0% 90% no-repeat;
     background-size: 140%;
     border-radius: 50%;
     opacity: 0.45;
@@ -1158,7 +1158,7 @@ a{
 
 .sustainablebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/sustainable.jpg) 0% 90% no-repeat;
+    background:url(sustainable.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -1213,7 +1213,7 @@ a{
 
 .sustainable:hover .sustainablebtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/sustainable.jpg) 0% 90% no-repeat;
+    background:url(sustainable.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;
@@ -1238,7 +1238,7 @@ a{
 
 .organicbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/organic.jpg) 0% 90% no-repeat;
+    background:url(organic.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border: 0px solid #ffffff;
     color: white;
@@ -1293,7 +1293,7 @@ a{
 
 .organic:hover .organicbtn 
 {
-    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/organic.jpg) 0% 90% no-repeat;
+    background:url(organic.jpg) 0% 90% no-repeat;
     background-size: 120%;
     border-radius: 50%;
     opacity: 0.45;

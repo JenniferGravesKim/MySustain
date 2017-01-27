@@ -1,0 +1,1331 @@
+#mainbod{
+    background: url("file:///C:/Users/jenni/Documents/Computer%20Science/Project/bg2.jpg");
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 30px;
+}
+
+div{
+	padding-top: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+#about1 {
+    height: 25px;
+    width:70px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; 
+}
+
+#about1:hover{
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:.5;
+}
+
+#beauty2 {
+    height: 25px;
+    width:80px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; 
+}
+
+#beauty2:hover{
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:0.5;
+}
+
+#lifestyle3 {
+    height: 25px;
+    width:120px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; 
+}
+
+#lifestyle3:hover{
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:0.5;
+}
+
+#nutrition4 {
+    height: 25px;
+    width:120px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; 
+}
+
+#nutrition4:hover{
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:0.5;
+}
+
+#resources5 {
+    height: 25px;
+    width:120px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; 
+}
+
+#resources5:hover{
+/*    text-shadow: 0px 0 15px #ffffff;
+*/
+    opacity:0.5;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: Monospace;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; 
+}
+
+#logo{
+	margin-top: 130px;
+    opacity:1;
+}
+
+#logotop{
+    margin-left: 30px;
+    margin-top: 50px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    opacity:1;
+    position: absolute;
+}
+
+#logotop:hover{
+    opacity:0.5;
+}
+
+#about-body{
+ /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
+    background-color: #000000;
+    background-size: 100% 500%;
+    background-repeat: no-repeat;
+}
+
+#about-title{
+    margin-top: 40px;
+    position: relative;
+}
+
+#beauty-body{
+ /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
+    background-color: #000000;
+    background-size: 100% 500%;
+    background-repeat: no-repeat;
+}
+
+#beauty-title{
+    margin-top: 40px;
+    position: relative;
+}
+
+#lifestyle-body{
+ /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
+    background-color: #000000;
+    background-size: 100% 500%;
+    background-repeat: no-repeat;
+}
+
+#lifestyle-title{
+    margin-top: 40px;
+    position: relative;
+}
+
+#nutrition-body{
+ /*  background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
+    background-color: #000000;
+    background-size: 100% 500%;
+    background-repeat: no-repeat;
+}
+
+#nutrition-title{
+    margin-top: 40px;
+    position: relative;
+}
+
+#resources-body{
+ /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
+    background-color: #000000;
+    background-size: 100% 500%;
+    background-repeat: no-repeat;
+}
+
+#resources-title{
+    margin-top: 40px;
+    position: relative;
+}
+
+/*
+
+#cosmetics-img{
+    border: 0px solid #ffffff;
+    border-radius: 5%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+#cosmetics-img:hover{
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    opacity:0.5;
+    position: relative;
+}
+
+#cosmetics-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 110px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; 
+}
+
+#cosmetics-text:hover{
+    opacity: 1;
+}
+
+#hair-img{
+    border: 0px solid #ffffff;
+    border-radius: 5%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+#hair-img:hover{
+    border: 0px solid #ffffff;
+    border-radius: 50%;    
+    opacity:0.5;
+    position: relative;
+}
+
+#hair-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 430px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+#hair-text:hover{
+    opacity: 1;
+}
+
+#skincare-img{
+    border: 0px solid #ffffff;
+    border-radius: 5%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+#skincare-img:hover{
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    opacity:0.5;
+    position: relative;
+}
+
+#skincare-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    background: red;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 700px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+#skincare-text:hover{
+    opacity: 1;
+}
+
+#hygiene-img{
+    border: 0px solid #ffffff;
+    border-radius: 5%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+#hygiene-img:hover{
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    opacity:0.5;
+    position: relative;
+}
+
+#hygiene-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    background: red;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 995px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+#hygiene-text:hover{
+    opacity: 1;
+}
+
+*/
+
+
+
+.energybtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/energy.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.energy 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.energy-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.energy-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.energy-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.energy:hover .energy-content 
+{
+    display: block;
+}
+
+.energy:hover .energybtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/energy.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#energy-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 95px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#energy-text:hover{
+    opacity: 1;
+}
+
+
+.wastebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/waste.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.waste 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.waste-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.waste-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1; 
+}
+
+.waste-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.waste:hover .waste-content 
+{
+    display: block;
+}
+
+.waste:hover .wastebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/waste.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#waste-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 100px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#waste-text:hover{
+    opacity: 1;
+}
+
+.clothingbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/clothing.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.clothing 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.clothing-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.clothing-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.clothing-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.clothing:hover .clothing-content 
+{
+    display: block;
+}
+
+.clothing:hover .clothingbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/clothing.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#clothing-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 80px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#clothing-text:hover{
+    opacity: 1;
+}
+
+.pollutionbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/pollution.jpeg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.pollution 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.pollution-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.pollution-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.pollution-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.pollution:hover .pollution-content 
+{
+    display: block;
+}
+
+.pollution:hover .pollutionbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/pollution.jpeg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#pollution-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 80px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#pollution-text:hover{
+    opacity: 1;
+}
+
+.cosmeticsbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/cosmetics.jpg) 0% 90% no-repeat;
+    background-size: 125%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.cosmetics 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.cosmetics-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.cosmetics-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.cosmetics-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.cosmetics:hover .cosmetics-content 
+{
+    display: block;
+}
+
+.cosmetics:hover .cosmeticsbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/cosmetics.jpg) 0% 90% no-repeat;
+    background-size: 125%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#cosmetics-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 85px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#cosmetics-text:hover{
+    opacity: 1;
+}
+
+.hairbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hair.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.hair 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.hair-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.hair-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1; 
+}
+
+.hair-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.hair:hover .hair-content 
+{
+    display: block;
+}
+
+.hair:hover .hairbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hair.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#hair-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 100px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#hair-text:hover{
+    opacity: 1;
+}
+
+.skincarebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/skincare.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.skincare 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.skincare-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.skincare-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.skincare-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.skincare:hover .skincare-content 
+{
+    display: block;
+}
+
+.skincare:hover .skincarebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/skincare.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#skincare-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 80px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#skincare-text:hover{
+    opacity: 1;
+}
+
+.hygienebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hygiene.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.hygiene 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.hygiene-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.hygiene-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.hygiene-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.hygiene:hover .hygiene-content 
+{
+    display: block;
+}
+
+.hygiene:hover .hygienebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/hygiene.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#hygiene-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 80px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#hygiene-text:hover{
+    opacity: 1;
+}
+
+.vitaminsbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/vitamins.jpg) 0% 90% no-repeat;
+    background-size: 125%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.vitamins 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.vitamins-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.vitamins-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.vitamins-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.vitamins:hover .vitamins-content 
+{
+    display: block;
+}
+
+.vitamins:hover .vitaminsbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/vitamins.jpg) 0% 90% no-repeat;
+    background-size: 125%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#vitamins-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 85px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#vitamins-text:hover{
+    opacity: 1;
+}
+
+.gmosbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/gmos.jpg) 0% 90% no-repeat;
+    background-size: 140%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.gmos 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.gmos-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.gmos-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1; 
+}
+
+.gmos-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.gmos:hover .gmos-content 
+{
+    display: block;
+}
+
+.gmos:hover .gmosbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/gmos.jpg) 0% 90% no-repeat;
+    background-size: 140%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#gmos-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 100px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#gmos-text:hover{
+    opacity: 1;
+}
+
+.sustainablebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/sustainable.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.sustainable 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.sustainable-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.sustainable-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.sustainable-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.sustainable:hover .sustainable-content 
+{
+    display: block;
+}
+
+.sustainable:hover .sustainablebtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/sustainable.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#sustainable-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 70px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#sustainable-text:hover{
+    opacity: 1;
+}
+
+.organicbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/organic.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border: 0px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.organic 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: 170px;
+    width: 250px;
+}
+
+.organic-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-left: 50px;
+    margin-top: -15px;
+    opacity: 0.9;
+}
+
+.organic-content a 
+{
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+}
+
+.organic-content a:hover 
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.organic:hover .organic-content 
+{
+    display: block;
+}
+
+.organic:hover .organicbtn 
+{
+    background:url(file:///C:/Users/jenni/Documents/Computer%20Science/Project/organic.jpg) 0% 90% no-repeat;
+    background-size: 120%;
+    border-radius: 50%;
+    opacity: 0.45;
+}
+
+#organic-text{
+    height: 0px;
+    width: 0px;
+    background: rgba(204, 204, 204, 0.0); 
+    border-radius: 5%;
+    margin-top: 75px;
+    margin-left: 85px;
+    position: absolute;
+    text-align: center;
+    opacity:1;
+    color: white;
+}   
+
+#organic-text:hover{
+    opacity: 1;
+}
+
+#solar-panels{
+    padding-top: 50px;
+}
+
+#lab{
+    padding-top: 50px;
+}
+
+
+
+
+
+

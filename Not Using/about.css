@@ -1,0 +1,36 @@
+#about-body{
+    background: url("file:///E:/Computer%20Science/Computer%20Science%203/Project/bg4.jpg"); 
+    background-color: black;
+    background-size: 100% 500%;
+    background-repeat: no-repeat;
+}
+
+#about-title{
+	padding-top: 30px;
+}
+
+#logotop{
+	padding-left: 30px;
+	padding-top: 40px;
+}
+
+h1{
+	color: white;
+	font-size: 20px;
+	font-family: Monospace;
+}
+
+
+/*
+
+#logo{
+	padding-top: 10px;
+    height: 25px;
+    width:120px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: left;
+}
+
+/*

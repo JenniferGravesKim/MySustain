@@ -28,7 +28,7 @@ div{
 /*    text-shadow: 0px 0 15px #ffffff;
 */
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease; 
 }
 
@@ -48,7 +48,7 @@ div{
 /*    text-shadow: 0px 0 15px #ffffff;
 */
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease; 
 }
 
@@ -68,7 +68,7 @@ div{
 /*    text-shadow: 0px 0 15px #ffffff;
 */
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease; 
 }
 
@@ -88,7 +88,7 @@ div{
 /*    text-shadow: 0px 0 15px #ffffff;
 */
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease; 
 }
 
@@ -108,7 +108,7 @@ div{
 /*    text-shadow: 0px 0 15px #ffffff;
 */
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease; 
 }
 
@@ -122,38 +122,38 @@ a{
 	color: white;
 	text-decoration: none;
 	font-family: Monospace;
-    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
     transition: all 0.7s ease; 
 }
 
 #logo{
 	margin-top: auto;
     margin-bottom: auto;
+    margin-left: 15px;
     opacity:1;
 }
 
 #logoblock{
-    position: absolute;
+    position: relative;
     width: 750px;
-    height: 190px;
+    height: 175px;
     background: black;
     opacity: 1.0;
-    border: 3px solid #ffffff;
+    border: 2px solid #ffffff;
     transition: all 1.0s ease;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto; 
 }
 
 #logoblock:hover{
     opacity: 1.0;
-    border-radius: 30%;
 }
 
 #logotop{
     margin-left: 30px;
     margin-top: 50px;
-    -webkit-transition: all 0.5s ease;
+
     transition: all 0.5s ease; 
     opacity:1;
     position: absolute;
@@ -253,7 +253,7 @@ a{
     position: absolute;
     text-align: center;
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease; 
 }
 
@@ -289,7 +289,7 @@ a{
     position: absolute;
     text-align: center;
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -326,7 +326,7 @@ a{
     position: absolute;
     text-align: center;
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -363,7 +363,7 @@ a{
     position: absolute;
     text-align: center;
     opacity:1;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -385,7 +385,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -466,7 +466,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -546,7 +546,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -626,7 +626,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -706,7 +706,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -786,7 +786,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -866,7 +866,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -946,7 +946,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -1026,7 +1026,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -1106,7 +1106,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -1186,7 +1186,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 
@@ -1266,7 +1266,7 @@ a{
     height: 170px;
     width: 250px;
     border-radius: 5%;
-    -webkit-transition: all 0.7s ease;
+     
     transition: all 0.7s ease;
 }
 

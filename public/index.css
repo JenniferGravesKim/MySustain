@@ -1,121 +1,233 @@
 #mainbod{
-    background: url("bg2.jpg");
-
+    background: url("scotland2.jpg");
     background-color: black;
-    background-size: 100% 240%;
+    background-size: 140% 220%;
     background-repeat: no-repeat;
 }
 
-table{
-	margin-left: auto;
-	margin-right: auto;
-	border-spacing: 30px;
+
+#directory{
+	border-spacing: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 0px;
 }
 
-div{
-	padding-top: 30px;
-    color: white;
-    font-size: 15px;
-}
 
 #about1 {
-    height: 25px;
-    width:70px;
+    height: 40px;
+    width: 125px;
 	background: rgba(204, 204, 204, 0.0);
     border-radius: 0px;
     margin: auto;
     text-align: center;
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
     opacity:1;
-     
     transition: all 0.7s ease; 
 }
 
 #about1:hover{
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
-    opacity:.5;
+    opacity:.6;
+}
+
+#about1X {
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+    transition: all 0.7s ease; 
+}
+
+#about-border{
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    border-bottom: 1.3px solid #ffffff;
+    transition: all 0.7s ease;
+}
+
+#about-border:hover{
+    opacity:.6;
 }
 
 #beauty2 {
-    height: 25px;
-    width:80px;
+    height: 40px;
+    width: 125px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
     text-align: center;
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
     opacity:1;
      
     transition: all 0.7s ease; 
 }
 
 #beauty2:hover{
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
-    opacity:0.5;
+    opacity:.6;
+}
+
+#beauty2X {
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+    transition: all 0.7s ease; 
+}
+
+#beauty-border{
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    border-bottom: 1.3px solid #ffffff;
+    transition: all 0.7s ease;
+}
+
+#beauty-border:hover{
+    opacity:.6;
 }
 
 #lifestyle3 {
-    height: 25px;
-    width:120px;
+    height: 40px;
+    width: 125px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
     text-align: center;
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
     opacity:1;
      
     transition: all 0.7s ease; 
 }
 
 #lifestyle3:hover{
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
-    opacity:0.5;
+    opacity:.6;
+}
+
+#lifestyle3X {
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+    transition: all 0.7s ease; 
+}
+
+#lifestyle-border{
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    border-bottom: 1.3px solid #ffffff;
+    transition: all 0.7s ease;
+}
+
+#lifestyle-border:hover{
+    opacity:.6;
 }
 
 #nutrition4 {
-    height: 25px;
-    width:120px;
+    height: 40px;
+    width: 125px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
     text-align: center;
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
     opacity:1;
      
     transition: all 0.7s ease; 
 }
 
 #nutrition4:hover{
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
-    opacity:0.5;
+    opacity:.6;
+}
+
+#nutrition4X {
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+    transition: all 0.7s ease; 
+}
+
+#nutrition-border{
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    border-bottom: 1.3px solid #ffffff;
+    transition: all 0.7s ease;
+}
+
+#nutrition-border:hover{
+    opacity:.6;
 }
 
 #resources5 {
-    height: 25px;
-    width:120px;
+    height: 40px;
+    width: 125px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
     text-align: center;
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
     opacity:1;
      
     transition: all 0.7s ease; 
 }
 
 #resources5:hover{
-/*    text-shadow: 0px 0 15px #ffffff;
-*/
-    opacity:0.5;
+    opacity:.6;
+}
+
+#resources5X {
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+    transition: all 0.7s ease; 
+}
+
+#resources-border{
+    height: 40px;
+    width: 125px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    border-bottom: 1.3px solid #ffffff;
+    transition: all 0.7s ease;
+}
+
+#resources-border:hover{
+    opacity:.6;
 }
 
 a{
@@ -123,45 +235,53 @@ a{
 	text-decoration: none;
 	font-family: Monospace;
     transition: all 0.7s ease;
-    transition: all 0.7s ease; 
+    font-size: 16px;
 }
 
 #logo{
-	margin-top: auto;
+	margin-top: 25px;
     margin-bottom: auto;
-    margin-left: 15px;
+    margin-left: -10px;
     opacity:1;
+    width: 600px;
 }
 
 #logoblock{
     position: relative;
-    width: 750px;
-    height: 175px;
+    width: 650px;
+    height: 170px;
 /*    background: black; */
     opacity: 1.0;
-    border: 2px solid #ffffff;
-    transition: all 1.0s ease;
-    margin-top: 100px;
+    border: 4px solid #ffffff;
+    margin-top: 180px;
     margin-left: auto;
     margin-right: auto; 
     background: rgba(204, 204, 204, 0.0);
 }
 
-#logoblock:hover{
-    opacity: 1.0;
-}
-
 #logotop{
-    margin-left: 30px;
-    margin-top: 50px;
-
-    transition: all 0.5s ease; 
-    opacity:1;
-    position: absolute;
+    height: 50px;
+    padding-top: 5px;
+    float: left;
+    width: 220px;
+    margin-top: 4px;
+    margin-left: 8px;
 }
 
-#logotop:hover{
-    opacity:0.5;
+#logotopblock{
+    float: left;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 0px;
+    height: 60px;
+    border: 2px solid #ffffff;
+    transition: all .7s ease;
+    width: 240px;
+}
+
+#logotopblock:hover{
+    opacity: 0.4;
+    
 }
 
 #about-body{
@@ -240,7 +360,7 @@ a{
 #cosmetics-img:hover{
     border: 0px solid #ffffff;
     border-radius: 50%;
-    opacity:0.5;
+    opacity:.7;
     position: relative;
 }
 
@@ -276,7 +396,7 @@ a{
 #hair-img:hover{
     border: 0px solid #ffffff;
     border-radius: 50%;    
-    opacity:0.5;
+    opacity:.7;
     position: relative;
 }
 
@@ -312,7 +432,7 @@ a{
 #skincare-img:hover{
     border: 0px solid #ffffff;
     border-radius: 50%;
-    opacity:0.5;
+    opacity:.7;
     position: relative;
 }
 
@@ -349,7 +469,7 @@ a{
 #hygiene-img:hover{
     border: 0px solid #ffffff;
     border-radius: 50%;
-    opacity:0.5;
+    opacity:.7;
     position: relative;
 }
 
@@ -379,14 +499,14 @@ a{
 .energybtn 
 {
     background:url(energy.jpg) 0% 90% no-repeat;
-    background-size: 120%;
+    background-size: 120.5%;
     border: 0px solid #ffffff;
     color: white;
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -407,7 +527,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -434,7 +554,7 @@ a{
 .energy:hover .energybtn 
 {
     background:url(energy.jpg) 0% 90% no-repeat;
-    background-size: 120%;
+    background-size: 120.5%;
     border-radius: 50%;
     opacity: 0.45;
 }
@@ -466,8 +586,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -488,7 +608,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -546,8 +666,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -568,7 +688,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -626,8 +746,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -648,7 +768,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -699,15 +819,15 @@ a{
 
 .cosmeticsbtn 
 {
-    background:url(cosmetics.jpg) 0% 90% no-repeat;
-    background-size: 125%;
+    background:url(cosmetics.jpg) 0% 95% no-repeat;
+    background-size: 126%;
     border: 0px solid #ffffff;
     color: white;
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -728,7 +848,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -755,7 +875,7 @@ a{
 .cosmetics:hover .cosmeticsbtn 
 {
     background:url(cosmetics.jpg) 0% 90% no-repeat;
-    background-size: 125%;
+    background-size: 126%;
     border-radius: 50%;
     opacity: 0.45;
 }
@@ -786,8 +906,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff; 
     transition: all 0.7s ease;
 }
 
@@ -808,7 +928,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -866,8 +986,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -888,7 +1008,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -946,8 +1066,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -968,7 +1088,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -1026,8 +1146,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -1048,7 +1168,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -1106,8 +1226,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -1128,7 +1248,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -1186,8 +1306,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -1208,7 +1328,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -1266,8 +1386,8 @@ a{
     font-size: 16px;
     height: 170px;
     width: 250px;
-    border-radius: 5%;
-     
+    border-radius: 2%;
+    border: 3px solid #ffffff;
     transition: all 0.7s ease;
 }
 
@@ -1288,7 +1408,7 @@ a{
     position: absolute;
     min-width: 160px;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: 5px;
     opacity: 0.9;
 }
 
@@ -1337,13 +1457,14 @@ a{
     opacity: 1;
 }
 
-#solar-panels{
-    padding-top: 50px;
+#about-img{
+    margin-top: 70px;
 }
 
-#lab{
-    padding-top: 50px;
+#resources-img{
+    margin-top: 70px;
 }
+
 
 
 

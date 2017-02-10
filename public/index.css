@@ -1,23 +1,57 @@
+@font-face {
+font-family: 'Elronmonospace';
+src: url('Elronmonospace.eot'); /* IE9 Compat Modes */
+src: url('Elronmonospace.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('Elronmonospace.woff') format('woff'), /* Modern Browsers */
+url('Elronmonospace.ttf') format('truetype'), /* Safari, Android, iOS */
+url('Elronmonospace.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+font-family: 'NEOTERIC';
+src: url('NEOTERIC.eot'); /* IE9 Compat Modes */
+src: url('NEOTERIC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('NEOTERIC.woff') format('woff'), /* Modern Browsers */
+url('NEOTERIC.ttf') format('truetype'), /* Safari, Android, iOS */
+url('NEOTERIC.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+p{
+    font-family: 'NEOTERIC';
+    color: #ffffff;
+}
+
+a{
+    font-family: 'Elronmonospace';
+    color: white;
+	text-decoration: none;
+    transition: all 0.7s ease;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 1;
+}
+
 #mainbod{
-    background: url("bg13.jpg");
-    background-size: 110% 240%; 
+    background: url("bg15.jpg");
+    background-size: 100% 200%; 
     background-repeat: no-repeat;
     background-color: black;
 }
 
 
 #directory{
-	border-spacing: 20px;
-    margin-top: 50px;
+	border-spacing: 10px;
+    height: 50px;
+    margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
-    width: 750px;
+    width: 850px;
 }
 
 
 #about1 {
-    height: 24px;
-    width: 115px;
+    height: 21px;
+    width: 53px;
 	background: rgba(204, 204, 204, 0.0);
     border-radius: 0px;
     margin: auto;
@@ -30,36 +64,21 @@
     opacity:.6;
 }
 
-#about1X {
-    height: 24px;
-    width: 115px;
+#about-border{
+    height: 21px;
+    width: 50px;
 	background: rgba(204, 204, 204, 0.0);
     border-radius: 0px;
     margin: auto;
     text-align: center;
     opacity:1;
-    transition: all 0.7s ease; 
-}
-
-#about-border{
-    height: 24px;
-    width: 115px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;    
-    border-bottom: 1.3px solid #ffffff;
-    transition: all 0.7s ease;
-}
-
-#about-border:hover{
-    opacity:.6;
+    transition: all 0.7s ease;  
+/*    border-bottom: 1.3px solid #ffffff; */
 }
 
 #beauty2 {
-    height: 24px;
-    width: 115px;
+    height: 21px;
+    width: 63px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
@@ -73,36 +92,21 @@
     opacity:.6;
 }
 
-#beauty2X {
-    height: 24px;
-    width: 115px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-    transition: all 0.7s ease; 
-}
-
 #beauty-border{
-    height: 24px;
-    width: 115px;
+    height: 21px;
+    width: 40px;
 	background: rgba(204, 204, 204, 0.0);
     border-radius: 0px;
     margin: auto;
     text-align: center;
     opacity:1;    
-    border-bottom: 1.3px solid #ffffff;
     transition: all 0.7s ease;
-}
-
-#beauty-border:hover{
-    opacity:.6;
+    /*    border-bottom: 1.3px solid #ffffff; */
 }
 
 #lifestyle3 {
-    height: 24px;
-    width: 115px;
+    height: 21px;
+    width: 83px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
@@ -116,36 +120,21 @@
     opacity:.6;
 }
 
-#lifestyle3X {
-    height: 24px;
-    width: 115px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-    transition: all 0.7s ease; 
-}
-
 #lifestyle-border{
-    height: 24px;
-    width: 115px;
+    height: 21px;
+    width: 70px;
 	background: rgba(204, 204, 204, 0.0);
     border-radius: 0px;
     margin: auto;
     text-align: center;
     opacity:1;    
-    border-bottom: 1.3px solid #ffffff;
     transition: all 0.7s ease;
-}
-
-#lifestyle-border:hover{
-    opacity:.6;
+    /*    border-bottom: 1.3px solid #ffffff; */
 }
 
 #nutrition4 {
-    height: 24px;
-    width: 120px;
+    height: 21px;
+    width: 85px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
@@ -159,36 +148,21 @@
     opacity:.6;
 }
 
-#nutrition4X {
-    height: 24px;
-    width: 120px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-    transition: all 0.7s ease; 
-}
-
 #nutrition-border{
-    height: 24px;
-    width: 120px;
+    height: 21px;
+    width: 50px;
 	background: rgba(204, 204, 204, 0.0);
     border-radius: 0px;
     margin: auto;
     text-align: center;
     opacity:1;    
-    border-bottom: 1.3px solid #ffffff;
     transition: all 0.7s ease;
-}
-
-#nutrition-border:hover{
-    opacity:.6;
+    /*    border-bottom: 1.3px solid #ffffff; */
 }
 
 #resources5 {
-    height: 24px;
-    width: 120px;
+    height: 21px;
+    width: 96px;
     background: rgba(204, 204, 204, 0.0);
     border-radius: 5px;
     margin: auto;
@@ -202,39 +176,16 @@
     opacity:.6;
 }
 
-#resources5X {
-    height: 24px;
-    width: 120px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-    transition: all 0.7s ease; 
-}
-
 #resources-border{
-    height: 24px;
-    width: 120px;
+    height: 21px;
+    width: 100px;
 	background: rgba(204, 204, 204, 0.0);
     border-radius: 0px;
     margin: auto;
     text-align: center;
     opacity:1;    
-    border-bottom: 1.3px solid #ffffff;
     transition: all 0.7s ease;
-}
-
-#resources-border:hover{
-    opacity:.6;
-}
-
-a{
-	color: white;
-	text-decoration: none;
-	font-family: Monospace;
-    transition: all 0.7s ease;
-    font-size: 16px;
+    /*    border-bottom: 1.3px solid #ffffff; */
 }
 
 #logo{
@@ -252,7 +203,7 @@ a{
 /*    background: black; */
     opacity: 1.0;
     border: 4px solid #ffffff;
-    margin-top: 190px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto; 
     background: rgba(204, 204, 204, 0.0);
@@ -270,8 +221,8 @@ a{
 #logotopblock{
     float: left;
     position: absolute;
-    margin-left: 60px;
-    margin-top: 0px;
+    margin-left: 50px;
+    margin-top: -5px;
     height: 60px;
     border: 2px solid #ffffff;
     transition: all .7s ease;
@@ -858,6 +809,7 @@ a{
     text-decoration: none;
     display: block;
     opacity: 1;
+    font-family: 'Elronmonospace';
 }
 
 .cosmetics-content a:hover 
@@ -890,6 +842,7 @@ a{
     text-align: center;
     opacity:1;
     color: white;
+    font-family: 'Elronmonospace';
 }   
 
 #cosmetics-text:hover{

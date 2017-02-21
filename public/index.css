@@ -21,7 +21,7 @@ p{
     color: #ffffff;
 }
 
-a{
+/*a{
     font-family: 'Elronmonospace';
     color: white;
 	text-decoration: none;
@@ -29,163 +29,13 @@ a{
     font-size: 18px;
     font-weight: bold;
     opacity: 1;
-}
+}*/
 
-#mainbod{
+.mainbod{
     background: url("bg15.jpg");
-    background-size: 100% 200%; 
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
-    background-color: black;
-}
-
-
-#directory{
-	border-spacing: 10px;
-    height: 50px;
-    margin-top: 55px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 850px;
-}
-
-
-#about1 {
-    height: 21px;
-    width: 53px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-    transition: all 0.7s ease; 
-}
-
-#about1:hover{
-    opacity:.6;
-}
-
-#about-border{
-    height: 21px;
-    width: 50px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-    transition: all 0.7s ease;  
-/*    border-bottom: 1.3px solid #ffffff; */
-}
-
-#beauty2 {
-    height: 21px;
-    width: 63px;
-    background: rgba(204, 204, 204, 0.0);
-    border-radius: 5px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-     
-    transition: all 0.7s ease; 
-}
-
-#beauty2:hover{
-    opacity:.6;
-}
-
-#beauty-border{
-    height: 21px;
-    width: 40px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;    
-    transition: all 0.7s ease;
-    /*    border-bottom: 1.3px solid #ffffff; */
-}
-
-#lifestyle3 {
-    height: 21px;
-    width: 83px;
-    background: rgba(204, 204, 204, 0.0);
-    border-radius: 5px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-     
-    transition: all 0.7s ease; 
-}
-
-#lifestyle3:hover{
-    opacity:.6;
-}
-
-#lifestyle-border{
-    height: 21px;
-    width: 70px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;    
-    transition: all 0.7s ease;
-    /*    border-bottom: 1.3px solid #ffffff; */
-}
-
-#nutrition4 {
-    height: 21px;
-    width: 85px;
-    background: rgba(204, 204, 204, 0.0);
-    border-radius: 5px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-     
-    transition: all 0.7s ease; 
-}
-
-#nutrition4:hover{
-    opacity:.6;
-}
-
-#nutrition-border{
-    height: 21px;
-    width: 50px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;    
-    transition: all 0.7s ease;
-    /*    border-bottom: 1.3px solid #ffffff; */
-}
-
-#resources5 {
-    height: 21px;
-    width: 96px;
-    background: rgba(204, 204, 204, 0.0);
-    border-radius: 5px;
-    margin: auto;
-    text-align: center;
-    opacity:1;
-     
-    transition: all 0.7s ease; 
-}
-
-#resources5:hover{
-    opacity:.6;
-}
-
-#resources-border{
-    height: 21px;
-    width: 100px;
-	background: rgba(204, 204, 204, 0.0);
-    border-radius: 0px;
-    margin: auto;
-    text-align: center;
-    opacity:1;    
-    transition: all 0.7s ease;
-    /*    border-bottom: 1.3px solid #ffffff; */
+    background-attachment: fixed;
 }
 
 #logo{
@@ -193,17 +43,17 @@ a{
     margin-bottom: auto;
     margin-left: -10px;
     opacity:1;
-    width: 600px;
+    width: 850px;
 }
 
 #logoblock{
     position: relative;
-    width: 650px;
-    height: 170px;
+    width: 850px;
+    height: 220px;
 /*    background: black; */
     opacity: 1.0;
     border: 4px solid #ffffff;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: auto;
     margin-right: auto; 
     background: rgba(204, 204, 204, 0.0);
@@ -234,64 +84,311 @@ a{
     
 }
 
-#about-body{
- /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
-    background-color: #000000;
-    background-size: 100% 500%;
-    background-repeat: no-repeat;
+#directory-font{
+    font-family: 'Elronmonospace';
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+    opacity: 1;
+}
+
+#directory-text{
+    opacity: 1;
+    font-family: 'Elronmonospace';
+    color: white;
+    transition: all .8s ease;
+}
+
+#directory-text:hover{
+    opacity: .4;
+}
+
+.directorybtn 
+{
+    background:url(White-Flower-Windmill.png) 50% 50% no-repeat;
+    background-size: 50px;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: px;
+    height: 75px;
+    width: 75px;
+    background-color: rgba(0, 0, 0, 0.55); 
+    position: fixed;
+    transition: all .8s ease-in-out;
+    opacity: 0.8;
+}
+
+.directory 
+{
+    margin-top: -220px;
+    margin-left: 20px;
+    height: 75px;
+    width: 75px;
+    background: rgba(204, 204, 204, 0.0); 
+    position: fixed;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.directory-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    visibility: hidden;
+    height: 350px;
+    position: absolute;
+    min-width: 100px;
+    margin-left: -12px;
+    margin-top: px;
+    position: fixed;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+/*
+    display: none;
+*/
+}
+
+.directory-content a 
+{
+    font-family: 'Elronmonospace';
+    color: white;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+    margin-top: 12px;
+}
+
+.directory-content a:hover 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    opacity: 0.6;
+}
+
+.directory:hover .directory-content 
+{
+    visibility: visible;
+}
+
+.directory-content:hover{
+    opacity: 1;
+}
+
+.directory:hover .directorybtn 
+{
+/*    background-color: rgba(70, 70, 70, 0.74); */
+    opacity: 0.8;
+    background-color: rgba(69, 69, 69, 0.55);
+}
+
+#about-bar{
+    margin-top: 250px;
+    height: 550px;
+    width: 70%;
+    background-color: black;
+    opacity: 0.6;
+    position: relative;
+}
+
+#beauty-bar{
+    margin-top: 250px;
+    height: 550px;
+    width: 70%;
+    background-color: black;
+/*    opacity: 0.6;
+*/
+    position: relative;
+    background: rgba(0, 0, 0, 0.7); 
+}
+
+#lifestyle-bar{
+    margin-top: 250px;
+    height: 550px;
+    width: 70%;
+    background-color: black;
+    position: relative;
+    background: rgba(0, 0, 0, 0.7); 
+}
+
+#nutrition-bar{
+    margin-top: 250px;
+    height: 550px;
+    width: 70%;
+    background-color: black;
+    position: relative;
+    background: rgba(0, 0, 0, 0.7); 
 }
 
 #about-title{
-    margin-top: 40px;
-    position: relative;
+    width: 700px;
+    margin-top: -140px;
+    position: absolute;
+    margin-left: 420px;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
-#beauty-body{
- /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
-    background-color: #000000;
-    background-size: 100% 500%;
+#cosmetics-title{
+    width: 700px;
+    margin-top: 110px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#hair-title{
+    width: 700px;
+    margin-top: 110px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#skincare-title{
+    width: 700px;
+    margin-top: -140px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    opacity: 0.85;
+/*    border-bottom: 5px solid #ffffff; */
+}
+
+#pollution-title{
+    width: 700px;
+    margin-top: -140px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    opacity: 0.85;    
+}
+
+#waste-title{
+    width: 700px;
+    margin-top: 110px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;    
+}
+
+#sustainable-title{
+    width: 700px;
+    margin-top: -140px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    opacity: 0.85;    
+}
+
+#vitamins-title{
+    width: 700px;
+    margin-top: 110px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;    
+}
+
+#gmos-title{
+    width: 700px;
+    margin-top: 110px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;    
+}
+
+#end{
+    height: 80px;
+    width: 100%;
+}
+
+#beauty-end{
+    height: 100px;
+    width: 100%;
+}
+
+
+#lifestyle-end{
+    height: 100px;
+    width: 100%;
+}
+
+#nutrition-end{
+    height: 100px;
+    width: 100%;
+}
+
+.about-body{
+    background: url("bg15.jpg"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-#beauty-title{
-    margin-top: 40px;
-    position: relative;
+.animate-in {
+    -webkit-animation: fadeIn 1s ease-in;
+    animation: fadeIn 1s ease-in;
 }
 
-#lifestyle-body{
- /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
-    background-color: #000000;
-    background-size: 100% 500%;
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.beauty-body{
+    background: url("bg15.jpg"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-#lifestyle-title{
-    margin-top: 40px;
-    position: relative;
-}
-
-#nutrition-body{
- /*  background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
-    background-color: #000000;
-    background-size: 100% 500%;
+.lifestyle-body{
+    background: url("bg15.jpg"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-#nutrition-title{
-    margin-top: 40px;
-    position: relative;
-}
-
-#resources-body{
- /*   background: url("file:///C:/Users/jenni/Desktop/Project/bg4.jpg"); */
-    background-color: #000000;
-    background-size: 100% 500%;
+.nutrition-body{
+    background: url("bg15.jpg"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-#resources-title{
-    margin-top: 40px;
-    position: relative;
+.resources-body{
+    background: url("bg15.jpg"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*
@@ -440,6 +537,159 @@ a{
 
 #hygiene-text:hover{
     opacity: 1;
+}
+
+*/
+
+/*
+
+#directory{
+	border-spacing: 10px;
+    height: 50px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+
+#about1 {
+    height: 21px;
+    width: 53px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+    transition: all 0.7s ease; 
+}
+
+#about1:hover{
+    opacity:.6;
+}
+
+#about-border{
+    height: 21px;
+    width: 50px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+    transition: all 0.7s ease;  
+/*    border-bottom: 1.3px solid #ffffff; 
+}
+
+#beauty2 {
+    height: 21px;
+    width: 63px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+     
+    transition: all 0.7s ease; 
+}
+
+#beauty2:hover{
+    opacity:.6;
+}
+
+#beauty-border{
+    height: 21px;
+    width: 40px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    transition: all 0.7s ease;
+    /*    border-bottom: 1.3px solid #ffffff; 
+}
+
+#lifestyle3 {
+    height: 21px;
+    width: 83px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+     
+    transition: all 0.7s ease; 
+}
+
+#lifestyle3:hover{
+    opacity:.6;
+}
+
+#lifestyle-border{
+    height: 21px;
+    width: 70px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    transition: all 0.7s ease;
+    /*    border-bottom: 1.3px solid #ffffff; 
+}
+
+#nutrition4 {
+    height: 21px;
+    width: 85px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+     
+    transition: all 0.7s ease; 
+}
+
+#nutrition4:hover{
+    opacity:.6;
+}
+
+#nutrition-border{
+    height: 21px;
+    width: 50px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    transition: all 0.7s ease;
+    /*    border-bottom: 1.3px solid #ffffff; 
+}
+
+#resources5 {
+    height: 21px;
+    width: 96px;
+    background: rgba(204, 204, 204, 0.0);
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    opacity:1;
+     
+    transition: all 0.7s ease; 
+}
+
+#resources5:hover{
+    opacity:.6;
+}
+
+#resources-border{
+    height: 21px;
+    width: 100px;
+	background: rgba(204, 204, 204, 0.0);
+    border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    opacity:1;    
+    transition: all 0.7s ease;
+    /*    border-bottom: 1.3px solid #ffffff; 
 }
 
 */

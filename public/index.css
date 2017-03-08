@@ -32,30 +32,76 @@ p{
 }*/
 
 .mainbod{
-    background: url("bg15.jpg");
+    background: url("bg26.jpg"); 
+    background-color: black;
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+.about-body{
+    background: url("bg30.jpg"); 
+    background-color: black;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.beauty-body{
+    background: url("bg26.jpg"); 
+    background-color: black;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+/*    background-position: center;
+    background-position: right; */
+}
+
+.lifestyle-body{
+    background: url("bg30.jpg"); 
+    background-color: black;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.nutrition-body{
+    background: url("bg30.jpg"); 
+    background-color: black;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.resources-body{
+    background: url("bg30.jpg"); 
+    background-color: black; 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
 #logo{
 	margin-top: 25px;
     margin-bottom: auto;
     margin-left: -10px;
-    opacity:1;
+    opacity: 1;
     width: 800px;
 }
 
 #logoblock{
-    position: relative;
     width: 800px;
     height: 210px;
 /*    background: black; */
-    opacity: 1.0;
+    opacity: .9;
     border: 4px solid #ffffff;
-    margin-top: 250px;
-    margin-left: auto;
-    margin-right: auto; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 300px;
     background: rgba(204, 204, 204, 0.0);
 }
 
@@ -85,18 +131,23 @@ p{
 }
 
 #directory-font{
-    font-family: 'Elronmonospace';
+    font-family: 'Neoteric';
     color: white;
     text-decoration: none;
-    font-size: 70px;
+    font-size: 80px;
     opacity: 1;
+    height: 16px;
+    margin-top: 1px;
 }
 
 #directory-text{
     opacity: 1;
-    font-family: 'Elronmonospace';
+    font-family: 'Neoteric';
     color: white;
+    font-size: 19px;
     transition: all .8s ease;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 #directory-text:hover{
@@ -111,19 +162,22 @@ p{
     border-radius: 50%;
     font-size: 16px;
     margin-top: 0px;
-    margin-left: px;
+    margin-left: 0px;
     height: 75px;
     width: 75px;
+/*
     background-color: rgba(0, 0, 0, 0.55); 
+*/
+    background-color: rgba(46, 38, 27, 0.55);
     position: fixed;
     transition: all .8s ease-in-out;
-    opacity: 0.8;
+    opacity: .95;
 }
 
 .directory 
 {
-    margin-top: -220px;
-    margin-left: 20px;
+    margin-top: -218px;
+    margin-left: 27px;
     height: 75px;
     width: 75px;
     background: rgba(204, 204, 204, 0.0); 
@@ -136,14 +190,15 @@ p{
 {
     background: rgba(204, 204, 204, 0.0); 
     visibility: hidden;
-    height: 350px;
+    height: 370px;
     position: absolute;
     min-width: 100px;
-    margin-left: -12px;
-    margin-top: px;
+    margin-left: -16px;
+    margin-top: -10px;
     position: fixed;
     opacity: 0;
     transition: opacity .8s ease-in-out;
+    text-align: center;
 /*
     display: none;
 */
@@ -151,13 +206,14 @@ p{
 
 .directory-content a 
 {
-    font-family: 'Elronmonospace';
+    font-family: 'Neoteric';
     color: white;
     padding: 12px 0px;
     text-decoration: none;
     display: block;
     opacity: 1;
     margin-top: 12px;
+    margin-left: 0px;
 }
 
 .directory-content a:hover 
@@ -178,8 +234,117 @@ p{
 .directory:hover .directorybtn 
 {
 /*    background-color: rgba(70, 70, 70, 0.74); */
-    opacity: 0.8;
-    background-color: rgba(69, 69, 69, 0.55);
+    opacity: 0.9;
+    background-color: rgba(85, 70, 49, 0.5);
+}
+
+#idirectory-font{
+    font-family: 'Neoteric';
+    color: white;
+    text-decoration: none;
+    font-size: 80px;
+    opacity: 1;
+    height: 16px;
+    width: 78px;
+    margin-top: 1px;
+}
+
+#idirectory-text{
+    opacity: 1;
+    font-family: 'Neoteric';
+    color: white;
+    font-size: 19px;
+    transition: all .8s ease;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#idirectory-text:hover{
+    opacity: .4;
+}
+
+.idirectorybtn 
+{
+    background:url(White-Flower-Windmill.png) 50% 50% no-repeat;
+    background-size: 50px;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 75px;
+    width: 75px;
+/*
+    background-color: rgba(0, 0, 0, 0.55); 
+*/
+    background-color: rgba(46, 38, 27, 0.55);
+    position: fixed;
+    transition: all .8s ease-in-out;
+    opacity: .95;
+}
+
+.idirectory 
+{
+    margin-top: -268px;
+    margin-left: 27px;
+    height: 75px;
+    width: 75px;
+    background: rgba(204, 204, 204, 0.0); 
+    position: fixed;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.idirectory-content 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    visibility: hidden;
+    height: 370px;
+    position: absolute;
+    min-width: 100px;
+    margin-left: -16px;
+    margin-top: -10px;
+    position: fixed;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+/*
+    display: none;
+*/
+}
+
+.idirectory-content a 
+{
+    font-family: 'Neoteric';
+    color: white;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    opacity: 1;
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+.idirectory-content a:hover 
+{
+    background: rgba(204, 204, 204, 0.0); 
+    opacity: 0.6;
+}
+
+.idirectory:hover .idirectory-content 
+{
+    visibility: visible;
+}
+
+.idirectory-content:hover{
+    opacity: 1;
+}
+
+.idirectory:hover .idirectorybtn 
+{
+/*    background-color: rgba(70, 70, 70, 0.74); */
+    opacity: 0.9;
+    background-color: rgba(85, 70, 49, 0.5);
 }
 
 #about-bar{
@@ -187,11 +352,13 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
-    opacity: 0.6;
+/*    opacity: 0.6;
+*/
     position: relative;
+    background: rgba(46, 38, 27, 0.65);
 }
 
-#beauty-bar{
+#beauty-bar-1{
     margin-top: 250px;
     height: 550px;
     width: 70%;
@@ -199,7 +366,29 @@ p{
 /*    opacity: 0.6;
 */
     position: relative;
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(46, 38, 27, 0.65);
+}
+
+#beauty-bar-2{
+    margin-top: 0px;
+    height: 550px;
+    width: 70%;
+    background-color: black;
+/*    opacity: 0.6;
+*/
+    position: relative;
+    background: rgba(46, 38, 27, 0.65);
+}
+
+#beauty-bar-3{
+    margin-top: 0px;
+    height: 550px;
+    width: 70%;
+    background-color: black;
+/*    opacity: 0.6;
+*/
+    position: relative;
+    background: rgba(46, 38, 27, 0.65);
 }
 
 #lifestyle-bar{
@@ -207,8 +396,10 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
+/*    opacity: 0.6;
+*/
     position: relative;
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(46, 38, 27, 0.65);
 }
 
 #nutrition-bar{
@@ -216,18 +407,56 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
+/*    opacity: 0.6;
+*/
     position: relative;
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(46, 38, 27, 0.65);
+}
+
+#resources-bar{
+    margin-top: 250px;
+    height: 550px;
+    width: 70%;
+    background-color: black;
+/*    opacity: 0.6;
+*/
+    position: relative;
+    background: rgba(46, 38, 27, 0.65);
+}
+
+#about-title-box{
+    text-align: center;
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    margin-top: -130px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about-title{
-    width: 700px;
-    margin-top: -140px;
-    position: absolute;
-    margin-left: 420px;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px;
+}
+
+#about-text-box{
+    padding-top: 120px;
+    width: 690px;
+    position: relative;
+}
+
+#about-text{
+    font-size: 25px;
+    color: white;
+    font-family: 'Elronmonospace';
+    line-height: 60px;
 }
 
 #cosmetics-title{
@@ -240,6 +469,403 @@ p{
     right: 0;
 }
 
+#beauty-title-box{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    margin-top: -120px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#beauty-title{
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px;
+}
+
+#beauty-text-box{
+    padding-top: 120px;
+    width: 690px;
+    position: relative;
+}
+
+#beauty-text{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 60px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#beauty-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 50px;
+    width: auto;
+}
+
+#microbeads{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#microbeadsimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#microbeads:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#acidity{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#acidityimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#acidity:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#treatments{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#treatmentsimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#treatments:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#silicone{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#siliconeimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#silicone:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#sulfate{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#sulfateimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#sulfate:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#surfactants{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#surfactantsimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#surfactants:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#toulene{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#touleneimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#toulene:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#formaldehyde{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#formaldehydeimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#formaldehyde:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#animaltesting{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    transition: all .8s ease;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+    border: 3px solid #ffffff;
+}
+
+/*
+#animaltestingimg{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+    border: 5px solid #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+*/
+
+#animaltesting:hover{
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
 #hair-title{
     width: 700px;
     margin-top: 110px;
@@ -250,16 +876,26 @@ p{
     right: 0;
 }
 
-#skincare-title{
-    width: 700px;
-    margin-top: -140px;
+#skincare-title-box{
+    text-align: center;
+    width: 260px;
+    height: 100px;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -130px;
     left: 0;
     right: 0;
-    opacity: 0.85;
-/*    border-bottom: 5px solid #ffffff; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skincare-title{
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px;
 }
 
 #pollution-title{
@@ -306,7 +942,7 @@ p{
 
 #gmos-title{
     width: 700px;
-    margin-top: 110px;
+    margin-top: 105px;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -317,13 +953,20 @@ p{
 #end{
     height: 80px;
     width: 100%;
+    margin-top: 0px;
 }
 
 #beauty-end{
-    height: 100px;
+    height: 300px;
     width: 100%;
+    margin-top: 100px;
 }
 
+#b-tail{
+    height: 80px;
+    width: 100%;
+    margin-top: 0px;
+}
 
 #lifestyle-end{
     height: 100px;
@@ -335,11 +978,39 @@ p{
     width: 100%;
 }
 
-.about-body{
-    background: url("bg15.jpg"); 
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+#resources-title-box{
+    text-align: center;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    margin-top: -130px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resources-title{
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px;
+}
+
+#resources-text-box{
+    padding-top: 50px;
+    width: 690px;
+    position: relative;
+}
+
+#resources-text{
+    font-size: 25px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 35px;
 }
 
 .animate-in {
@@ -361,34 +1032,6 @@ p{
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-.beauty-body{
-    background: url("bg15.jpg"); 
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-.lifestyle-body{
-    background: url("bg15.jpg"); 
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-.nutrition-body{
-    background: url("bg15.jpg"); 
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-.resources-body{
-    background: url("bg15.jpg"); 
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 /*

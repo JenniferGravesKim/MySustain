@@ -8,6 +8,15 @@ url('Elronmonospace.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
+font-family: 'Modern';
+src: url('Modern.eot'); /* IE9 Compat Modes */
+src: url('Modern.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('Modern.woff') format('woff'), /* Modern Browsers */
+url('Modern.ttf') format('truetype'), /* Safari, Android, iOS */
+url('Modern.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
 font-family: 'NEOTERIC';
 src: url('NEOTERIC.eot'); /* IE9 Compat Modes */
 src: url('NEOTERIC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -22,7 +31,7 @@ p{
 }
 
 /*a{
-    font-family: 'Elronmonospace';
+    font-family: 'Modern';
     color: white;
 	text-decoration: none;
     transition: all 0.7s ease;
@@ -32,55 +41,70 @@ p{
 }*/
 
 .mainbod{
-    background: url("bg26.jpg"); 
-    background-color: black;
+    background: url("bg44.jpg"); 
+/*
+    background-color: rgba(68, 128, 100, 0.34);
+*/
+    background-color: #000000;
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .about-body{
-    background: url("bg30.jpg"); 
-    background-color: black;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: url("bg44.jpg"); 
+/*
+    background-color: rgba(68, 128, 100, 0.34);
+*/
+    background-color: #000000;
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .beauty-body{
-    background: url("bg26.jpg"); 
-    background-color: black;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: url("bg44.jpg"); 
+/*
+    background-color: rgba(68, 128, 100, 0.34);
+*/
+    background-color: #ffffff;
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
-/*    background-position: center;
-    background-position: right; */
+    background-attachment: fixed;
 }
 
 .lifestyle-body{
-    background: url("bg30.jpg"); 
-    background-color: black;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: url("bg44.jpg"); 
+/*
+    background-color: rgba(68, 128, 100, 0.34);
+*/
+    background-color: #000000;
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nutrition-body{
-    background: url("bg30.jpg"); 
-    background-color: black;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: url("bg44.jpg"); 
+/*
+    background-color: rgba(68, 128, 100, 0.34);
+*/
+    background-color: #000000;
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .resources-body{
-    background: url("bg30.jpg"); 
-    background-color: black; 
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: url("bg44.jpg"); 
+/*
+    background-color: rgba(68, 128, 100, 0.34);
+*/
+    background-color: #000000;
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 
 #logo{
 	margin-top: 25px;
@@ -151,7 +175,7 @@ p{
 }
 
 #directory-text:hover{
-    opacity: .4;
+    opacity: .5;
 }
 
 .directorybtn 
@@ -165,13 +189,12 @@ p{
     margin-left: 0px;
     height: 75px;
     width: 75px;
-/*
-    background-color: rgba(0, 0, 0, 0.55); 
-*/
-    background-color: rgba(46, 38, 27, 0.55);
+    background-color: rgba(0, 0, 0, 0.65);
     position: fixed;
     transition: all .8s ease-in-out;
-    opacity: .95;
+    opacity: .9;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.35);
+    border: 3px solid rgba(255, 255, 255, 0.9);
 }
 
 .directory 
@@ -199,9 +222,6 @@ p{
     opacity: 0;
     transition: opacity .8s ease-in-out;
     text-align: center;
-/*
-    display: none;
-*/
 }
 
 .directory-content a 
@@ -214,12 +234,14 @@ p{
     opacity: 1;
     margin-top: 12px;
     margin-left: 0px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
 }
 
 .directory-content a:hover 
 {
     background: rgba(204, 204, 204, 0.0); 
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .directory:hover .directory-content 
@@ -234,8 +256,10 @@ p{
 .directory:hover .directorybtn 
 {
 /*    background-color: rgba(70, 70, 70, 0.74); */
-    opacity: 0.9;
-    background-color: rgba(85, 70, 49, 0.5);
+/*    opacity: 0.9;
+    background-color: rgba(41, 41, 41, 0.5); */
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.35);
+    border: 3px solid rgba(255, 255, 255, 0.9);
 }
 
 #idirectory-font{
@@ -254,13 +278,14 @@ p{
     font-family: 'Neoteric';
     color: white;
     font-size: 19px;
-    transition: all .8s ease;
+    transition: all .8s ease-in-out;
     font-weight: bold;
     letter-spacing: 3px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
 }
 
 #idirectory-text:hover{
-    opacity: .4;
+    opacity: .5;
 }
 
 .idirectorybtn 
@@ -274,13 +299,12 @@ p{
     margin-left: 0px;
     height: 75px;
     width: 75px;
-/*
-    background-color: rgba(0, 0, 0, 0.55); 
-*/
-    background-color: rgba(46, 38, 27, 0.55);
+    background-color: rgba(0, 0, 0, 0.65);
     position: fixed;
     transition: all .8s ease-in-out;
-    opacity: .95;
+    opacity: .9;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.35);
+    border: 3px solid rgba(255, 255, 255, 0.9);
 }
 
 .idirectory 
@@ -308,9 +332,6 @@ p{
     opacity: 0;
     transition: opacity .8s ease-in-out;
     text-align: center;
-/*
-    display: none;
-*/
 }
 
 .idirectory-content a 
@@ -323,12 +344,13 @@ p{
     opacity: 1;
     margin-top: 12px;
     margin-left: 0px;
+    font-weight: bolder;
 }
 
 .idirectory-content a:hover 
 {
     background: rgba(204, 204, 204, 0.0); 
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .idirectory:hover .idirectory-content 
@@ -342,9 +364,8 @@ p{
 
 .idirectory:hover .idirectorybtn 
 {
-/*    background-color: rgba(70, 70, 70, 0.74); */
-    opacity: 0.9;
-    background-color: rgba(85, 70, 49, 0.5);
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.35);
+    border: 3px solid rgba(255, 255, 255, 0.9);
 }
 
 #about-bar{
@@ -352,10 +373,9 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
-/*    opacity: 0.6;
-*/
     position: relative;
-    background: rgba(46, 38, 27, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 #beauty-bar-1{
@@ -363,10 +383,9 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
-/*    opacity: 0.6;
-*/
     position: relative;
-    background: rgba(46, 38, 27, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 #beauty-bar-2{
@@ -374,10 +393,9 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
-/*    opacity: 0.6;
-*/
     position: relative;
-    background: rgba(46, 38, 27, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 #beauty-bar-3{
@@ -385,21 +403,18 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
-/*    opacity: 0.6;
-*/
     position: relative;
-    background: rgba(46, 38, 27, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 #lifestyle-bar{
     margin-top: 250px;
     height: 550px;
     width: 70%;
-    background-color: black;
-/*    opacity: 0.6;
-*/
     position: relative;
-    background: rgba(46, 38, 27, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 #nutrition-bar{
@@ -407,10 +422,9 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
-/*    opacity: 0.6;
-*/
     position: relative;
     background: rgba(46, 38, 27, 0.65);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 #resources-bar{
@@ -418,10 +432,9 @@ p{
     height: 550px;
     width: 70%;
     background-color: black;
-/*    opacity: 0.6;
-*/
     position: relative;
-    background: rgba(46, 38, 27, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 #about-title-box{
@@ -441,22 +454,41 @@ p{
     font-size: 80px; 
     color: white; 
     font-family:'Neoteric';
-    opacity: 0.8;
+    opacity: 0.9;
     font-weight: bold;
     letter-spacing: 30px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
 }
 
 #about-text-box{
     padding-top: 120px;
-    width: 690px;
+    width: 750px;
+    height: 300px;
     position: relative;
 }
 
 #about-text{
     font-size: 25px;
     color: white;
-    font-family: 'Elronmonospace';
-    line-height: 60px;
+    font-family: 'Modern';
+    line-height: 80px;
+    letter-spacing: 3px;
+    font-weight: 550;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
+    opacity: 1;
+}
+
+#under{
+    font-size: 25px;
+    color: white;
+    font-family: 'Modern';
+    line-height: 80px;
+    letter-spacing: 3px;
+    font-weight: 550;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
+    opacity: 1;
+    border-bottom: 2px dotted #ffffff;
+    padding-bottom: 3px;
 }
 
 #cosmetics-title{
@@ -469,9 +501,21 @@ p{
     right: 0;
 }
 
-#beauty-title-box{
+#hair-title-box{
     text-align: center;
-    width: 500px;
+    width: 255px;
+    height: 100px;
+    position: absolute;
+    margin-top: -120px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nails-title-box{
+    text-align: center;
+    width: 325px;
     height: 100px;
     position: absolute;
     margin-top: -120px;
@@ -489,6 +533,7 @@ p{
     opacity: 0.8;
     font-weight: bold;
     letter-spacing: 30px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
 }
 
 #beauty-text-box{
@@ -505,6 +550,7 @@ p{
     opacity: 1;
     font-weight: bold;
     letter-spacing: 5px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.45);
 }
 
 #beauty-box{
@@ -515,355 +561,684 @@ p{
     width: auto;
 }
 
-#microbeads{
+.microbeads-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.default-text-box{
+    font-family: Modern;
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+    padding-top: 100px;
+    margin-left: 400px;
+    line-height: 50px;
+    visibility: visible;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    display: inline-block;
+    color: white;
+    background: rgba(255, 255, 255, 0); 
+}
+
+.microbeads{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 40px;
     position: absolute;
-    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#microbeadsimg{
+.microbeads-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.microbeads-text-box{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.microbeads:hover .microbeads-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.microbeads:hover .microbeads-text-title{
+    opacity: .6;
+}
+
+.microbeads:hover .default-text-box{
+    opacity: 0;
+    visibility: visible;   
+}
+
+.default-text-box:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.microbeads-text: hover{
+    opacity: 1;
+}
+
+.microbeads-text-box: hover{
+    opacity: 1;
+}
+
+.microbeads:hover .microbeads-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.acidity-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#microbeads:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#acidity{
-    width: 200px;
-    height: 120px;
+.acidity{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 200px;
     position: absolute;
+/*
     border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#acidityimg{
+.acidity-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.acidity-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.acidity:hover .acidity-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.acidity:hover .acidity-text-title{
+    opacity: .6;
+}
+
+.acidity-text: hover{
+    opacity: 1;
+}
+
+.acidity-text-box: hover{
+    opacity: 1;
+}
+
+.acidity:hover .acidity-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.treatments-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#acidity:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#treatments{
-    width: 200px;
-    height: 120px;
+.treatments{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 360px;
     position: absolute;
+/*
     border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#treatmentsimg{
+.treatments-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.treatments-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.treatments:hover .treatments-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.treatments:hover .treatments-text-title{
+    opacity: .6;
+}
+
+.treatments-text: hover{
+    opacity: 1;
+}
+
+.treatments-text-box: hover{
+    opacity: 1;
+}
+
+.treatments:hover .treatments-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.toulene-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#treatments:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#silicone{
-    width: 200px;
-    height: 120px;
+.toulene{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 40px;
     position: absolute;
-    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#siliconeimg{
+.toulene-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.toulene-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.toulene:hover .toulene-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.toulene:hover .toulene-text-title{
+    opacity: .6;
+}
+
+.toulene-text: hover{
+    opacity: 1;
+}
+
+.toulene-text-box: hover{
+    opacity: 1;
+}
+
+.toulene:hover .toulene-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.formaldehyde-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#silicone:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#sulfate{
-    width: 200px;
-    height: 120px;
+.formaldehyde{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 200px;
     position: absolute;
-    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#sulfateimg{
+.formaldehyde-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.formaldehyde-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.formaldehyde:hover .formaldehyde-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.formaldehyde:hover .formaldehyde-text-title{
+    opacity: .6;
+}
+
+.formaldehyde-text: hover{
+    opacity: 1;
+}
+
+.formaldehyde-text-box: hover{
+    opacity: 1;
+}
+
+.formaldehyde:hover .formaldehyde-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.testing-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#sulfate:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#surfactants{
-    width: 200px;
-    height: 120px;
+.testing{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 360px;
     position: absolute;
-    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#surfactantsimg{
+.testing-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.testing-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.testing:hover .testing-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.testing:hover .testing-text-title{
+    opacity: .6;
+}
+
+.testing-text: hover{
+    opacity: 1;
+}
+
+.testing-text-box: hover{
+    opacity: 1;
+}
+
+.testing:hover .testing-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.silicone-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#surfactants:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#toulene{
-    width: 200px;
-    height: 120px;
+.silicone{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 40px;
     position: absolute;
-    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#touleneimg{
+.silicone-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.silicone-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.silicone:hover .silicone-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.silicone:hover .silicone-text-title{
+    opacity: .6;
+}
+
+.silicone-text: hover{
+    opacity: 1;
+}
+
+.silicone-text-box: hover{
+    opacity: 1;
+}
+
+.silicone:hover .silicone-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.sulfate-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#toulene:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#formaldehyde{
-    width: 200px;
-    height: 120px;
+.sulfate{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 200px;
     position: absolute;
-    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#formaldehydeimg{
+.sulfate-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.sulfate-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.sulfate:hover .sulfate-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sulfate:hover .sulfate-text-title{
+    opacity: .6;
+}
+
+.sulfate-text: hover{
+    opacity: 1;
+}
+
+.sulfate-text-box: hover{
+    opacity: 1;
+}
+
+.sulfate:hover .sulfate-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.surfactants-button{
     width: 200px;
     height: 120px;
     border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: .8s ease-in-out;
     opacity: 1;
-    border: 5px solid #ffffff;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
-}
-*/
-
-#formaldehyde:hover{
-    border-radius: 50%;
-    opacity: 0.6;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
 }
 
-#animaltesting{
-    width: 200px;
-    height: 120px;
+.surfactants{
+    width: 206px;
+    height: 126px;
     border-radius: 0%;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    transition: all .8s ease;
-    opacity: 0.9;
+    opacity: 1;
     margin-left: 40px;
     margin-top: 360px;
     position: absolute;
-    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
 }
 
-/*
-#animaltestingimg{
-    width: 200px;
-    height: 120px;
-    border-radius: 0%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+.surfactants-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
     opacity: 1;
-    border: 5px solid #ffffff;
-    margin-left: 0px;
-    margin-top: 0px;
-    position: relative;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
 }
-*/
 
-#animaltesting:hover{
+.surfactants-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.surfactants:hover .surfactants-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.surfactants:hover .surfactants-text-title{
+    opacity: .6;
+}
+
+.surfactants-text: hover{
+    opacity: 1;
+}
+
+.surfactants-text-box: hover{
+    opacity: 1;
+}
+
+.surfactants:hover .surfactants-button{
     border-radius: 50%;
-    opacity: 0.6;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
 }
 
 #hair-title{
@@ -896,58 +1271,1245 @@ p{
     opacity: 0.8;
     font-weight: bold;
     letter-spacing: 30px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
+}
+
+#pollution-title-box{
+    text-align: center;
+    width: 650px;
+    height: 100px;
+    position: absolute;
+    margin-top: -130px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 #pollution-title{
-    width: 700px;
-    margin-top: -140px;
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
+}
+
+#waste-title-box{
+    text-align: center;
+    width: 373px;
+    height: 100px;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -130px;
     left: 0;
     right: 0;
-    opacity: 0.85;    
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 #waste-title{
-    width: 700px;
-    margin-top: 110px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;    
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
 }
 
-#sustainable-title{
-    width: 700px;
-    margin-top: -140px;
+#vitamins-title-box{
+    text-align: center;
+    width: 630px;
+    height: 100px;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -130px;
     left: 0;
     right: 0;
-    opacity: 0.85;    
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 #vitamins-title{
-    width: 700px;
-    margin-top: 110px;
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
+}
+
+#sustainable-title-box{
+    text-align: center;
+    width: 505px;
+    height: 100px;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -130px;
     left: 0;
-    right: 0;    
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#sustainable-title{
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px; 
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
+}
+
+#gmos-title-box{
+    text-align: center;
+    width: 635px;
+    height: 100px;
+    position: absolute;
+    margin-top: -130px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 #gmos-title{
-    width: 700px;
-    margin-top: 105px;
+    position: relative;
+    font-size: 80px; 
+    color: white; 
+    font-family:'Neoteric';
+    opacity: 0.8;
+    font-weight: bold;
+    letter-spacing: 30px; 
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
+}
+
+.macro-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;    
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.macro{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.macro-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.macro-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.macro:hover .macro-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.macro:hover .macro-text-title{
+    opacity: .6;
+}
+
+.nutrition-text{
+    font-size: 20px;
+    color: white;
+    font-family: 'Modern';
+    line-height: 60px;
+    display: block;
+    opacity: 1;
+    transition: .8s ease-in-out;
+}
+
+.macro-text: hover{
+    opacity: 1;
+}
+
+.macro-text-box: hover{
+    opacity: 1;
+}
+
+.macro:hover .macro-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.minerals-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.minerals{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.minerals-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.minerals-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.minerals:hover .minerals-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.minerals:hover .minerals-text-title{
+    opacity: .6;
+}
+
+.minerals-text: hover{
+    opacity: 1;
+}
+
+.minerals-text-box: hover{
+    opacity: 1;
+}
+
+.minerals:hover .minerals-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.vitamin-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.vitamin{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.vitamin-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.vitamin-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.vitamin:hover .vitamin-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.vitamin:hover .vitamin-text-title{
+    opacity: .6;
+}
+
+.vitamin-text: hover{
+    opacity: 1;
+}
+
+.vitamin-text-box: hover{
+    opacity: 1;
+}
+
+.vitamin:hover .vitamin-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.gmo-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.gmo{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.gmo-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.gmo-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.gmo:hover .gmo-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.gmo:hover .gmo-text-title{
+    opacity: .6;
+}
+
+.gmo-text: hover{
+    opacity: 1;
+}
+
+.gmo-text-box: hover{
+    opacity: 1;
+}
+
+.gmo:hover .gmo-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.pesticide-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.pesticide{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.pesticide-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.pesticide-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.pesticide:hover .pesticide-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.pesticide:hover .pesticide-text-title{
+    opacity: .6;
+}
+
+.pesticide-text: hover{
+    opacity: 1;
+}
+
+.pesticide-text-box: hover{
+    opacity: 1;
+}
+
+.pesticide:hover .pesticide-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.artificial-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.artificial{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.artificial-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.artificial-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.artificial:hover .artificial-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.artificial:hover .artificial-text-title{
+    opacity: .6;
+}
+
+.artificial-text: hover{
+    opacity: 1;
+}
+
+.artificial-text-box: hover{
+    opacity: 1;
+}
+
+.artificial:hover .artificial-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.produce-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.produce{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.produce-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.produce-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.produce:hover .produce-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.produce:hover .produce-text-title{
+    opacity: .6;
+}
+
+.produce-text: hover{
+    opacity: 1;
+}
+
+.produce-text-box: hover{
+    opacity: 1;
+}
+
+.produce:hover .produce-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.animals-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.animals{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.animals-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.animals-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.animals:hover .animals-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.animals:hover .animals-text-title{
+    opacity: .6;
+}
+
+.animals-text: hover{
+    opacity: 1;
+}
+
+.animals-text-box: hover{
+    opacity: 1;
+}
+
+.animals:hover .animals-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.fairtrade-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.fairtrade{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.fairtrade-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.fairtrade-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.fairtrade:hover .fairtrade-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.fairtrade:hover .fairtrade-text-title{
+    opacity: .6;
+}
+
+.fairtrade-text: hover{
+    opacity: 1;
+}
+
+.fairtrade-text-box: hover{
+    opacity: 1;
+}
+
+.fairtrade:hover .fairtrade-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.energy-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.energy{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.energy-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.energy-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.energy:hover .energy-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.energy:hover .energy-text-title{
+    opacity: .6;
+}
+
+.energy-text: hover{
+    opacity: 1;
+}
+
+.energy-text-box: hover{
+    opacity: 1;
+}
+
+.energy:hover .energy-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.cars-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.cars{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.cars-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.cars-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.cars:hover .cars-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.cars:hover .cars-text-title{
+    opacity: .6;
+}
+
+.cars-text: hover{
+    opacity: 1;
+}
+
+.cars-text-box: hover{
+    opacity: 1;
+}
+
+.cars:hover .cars-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.industry-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.industry{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.industry-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.industry-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.industry:hover .industry-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.industry:hover .industry-text-title{
+    opacity: .6;
+}
+
+.industry-text: hover{
+    opacity: 1;
+}
+
+.industry-text-box: hover{
+    opacity: 1;
+}
+
+.industry:hover .industry-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.recycling-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.recycling{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.recycling-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.recycling-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.recycling:hover .recycling-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.recycling:hover .recycling-text-title{
+    opacity: .6;
+}
+
+.recycling-text: hover{
+    opacity: 1;
+}
+
+.recycling-text-box: hover{
+    opacity: 1;
+}
+
+.recycling:hover .recycling-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.landfills-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.landfills{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 200px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.landfills-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.landfills-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.landfills:hover .landfills-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.landfills:hover .landfills-text-title{
+    opacity: .6;
+}
+
+.landfills-text: hover{
+    opacity: 1;
+}
+
+.landfills-text-box: hover{
+    opacity: 1;
+}
+
+.landfills:hover .landfills-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.compost-button{
+    width: 200px;
+    height: 120px;
+    border-radius: 0%;
+    transition: .8s ease-in-out;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+}
+
+.compost{
+    width: 206px;
+    height: 126px;
+    border-radius: 0%;
+    opacity: 1;
+    margin-left: 40px;
+    margin-top: 360px;
+    position: absolute;
+/*
+    border: 3px solid #ffffff;
+*/
+    background: rgba(255, 255, 255, 0);
+    line-height: 60px;
+}
+
+.compost-text-title{
+    font-size: 21px;
+    color: white;
+    font-family: 'Neoteric';
+    line-height: 20px;
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: .6s ease-in-out;
+}
+
+.compost-text-box{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: center;
+}
+
+.compost:hover .compost-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.compost:hover .compost-text-title{
+    opacity: .6;
+}
+
+.compost-text: hover{
+    opacity: 1;
+}
+
+.compost-text-box: hover{
+    opacity: 1;
+}
+
+.compost:hover .compost-button{
+    border-radius: 50%;
+    opacity: 0.9;
+    border: 3px solid rgba(255, 255, 255, 0.6);
 }
 
 #end{
@@ -998,6 +2560,7 @@ p{
     opacity: 0.8;
     font-weight: bold;
     letter-spacing: 30px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
 }
 
 #resources-text-box{
@@ -1009,8 +2572,8 @@ p{
 #resources-text{
     font-size: 25px;
     color: white;
-    font-family: 'Neoteric';
-    line-height: 35px;
+    font-family: 'Modern';
+    line-height: 60px;
 }
 
 .animate-in {
@@ -1338,7 +2901,7 @@ p{
 */
 
 
-
+/*
 .energybtn 
 {
     background:url(energy.jpg) 0% 90% no-repeat;
@@ -1418,6 +2981,8 @@ p{
 #energy-text:hover{
     opacity: 1;
 }
+
+*/
 
 
 .wastebtn 
@@ -1702,7 +3267,7 @@ p{
     text-decoration: none;
     display: block;
     opacity: 1;
-    font-family: 'Elronmonospace';
+    font-family: 'Modern';
 }
 
 .cosmetics-content a:hover 
@@ -1735,7 +3300,7 @@ p{
     text-align: center;
     opacity:1;
     color: white;
-    font-family: 'Elronmonospace';
+    font-family: 'Modern';
 }   
 
 #cosmetics-text:hover{
@@ -1982,6 +3547,8 @@ p{
     opacity: 1;
 }
 
+/*
+
 .vitaminsbtn 
 {
     background:url(vitamins.jpg) 0% 90% no-repeat;
@@ -2221,6 +3788,8 @@ p{
 #sustainable-text:hover{
     opacity: 1;
 }
+
+/*
 
 .organicbtn 
 {

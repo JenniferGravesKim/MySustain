@@ -1,10 +1,10 @@
 @font-face {
-font-family: 'Elronmonospace';
-src: url('Elronmonospace.eot'); /* IE9 Compat Modes */
-src: url('Elronmonospace.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-url('Elronmonospace.woff') format('woff'), /* Modern Browsers */
-url('Elronmonospace.ttf') format('truetype'), /* Safari, Android, iOS */
-url('Elronmonospace.svg#svgFontName') format('svg'); /* Legacy iOS */
+font-family: 'metria';
+src: url('metria.eot'); /* IE9 Compat Modes */
+src: url('metria.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('metria.woff') format('woff'), /* Modern Browsers */
+url('metria.ttf') format('truetype'), /* Safari, Android, iOS */
+url('metria.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
@@ -41,18 +41,22 @@ p{
 }*/
 
 .mainbod{
-    background: url("bg44.jpg"); 
+    background: url("bg55.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
-    background-color: #000000;
+    background-color: black;
     background-size: 100% 100%; 
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
+/*
+    background-position: -550px 0px;
+*/
 }
 
 .about-body{
-    background: url("bg44.jpg"); 
+    background: url("bg55.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -63,7 +67,7 @@ p{
 }
 
 .beauty-body{
-    background: url("bg44.jpg"); 
+    background: url("bg55.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -74,7 +78,7 @@ p{
 }
 
 .lifestyle-body{
-    background: url("bg44.jpg"); 
+    background: url("bg55.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -85,7 +89,7 @@ p{
 }
 
 .nutrition-body{
-    background: url("bg44.jpg"); 
+    background: url("bg55.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -96,7 +100,7 @@ p{
 }
 
 .resources-body{
-    background: url("bg44.jpg"); 
+    background: url("bg55.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -104,6 +108,111 @@ p{
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.main-button{
+    width: 800px;
+    height: 130px;
+    position: fixed;
+    opacity: 1;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#main-table{
+    border-spacing: 49px 0px;
+    height: 130px;
+    width: 800px;
+    transition: .8s ease-in-out; 
+}
+
+.main{
+    width: 980px;
+    height: 130px;
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    background: rgba(255, 255, 255, 0);
+}
+
+.main-text-title{
+    text-align: center;
+    font-size: 80px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    color: whitesmoke;
+    font-family: 'Neoteric';
+    opacity: 1;
+    letter-spacing: 60px;
+    transition: 1s ease-in-out;
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.main-text-box{
+    width: 890px;
+    height: 130px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 4px;
+    visibility: visible;
+    display: inline-block;
+    font-family: 'Neoteric';
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.main:hover .main-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.main:hover .main-text-title{
+    opacity: 0;
+}
+
+.main:hover .default-text-box{
+    opacity: 0;
+    visibility: visible;   
+}
+
+.default-text-box:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-text: hover{
+    opacity: 1;
+}
+
+.main-text-box: hover{
+    opacity: 1;
+}
+
+.main:hover .main-button{
+
 }
 
 #logo{
@@ -115,45 +224,161 @@ p{
 }
 
 #logoblock{
-    width: 800px;
-    height: 210px;
-/*    background: black; */
-    opacity: .9;
-    border: 4px solid #ffffff;
+    font-family:'neoteric'; 
+    color: whitesmoke;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    position: fixed; 
+    letter-spacing: 60px; 
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: 4px solid whitesmoke; 
+    border-bottom: 4px solid whitesmoke; 
+    width: 100%; 
+    height: 130px; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+    margin: auto;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
-    margin-top: 300px;
-    background: rgba(204, 204, 204, 0.0);
 }
 
-#logotop{
-    height: 50px;
-    padding-top: 5px;
-    float: left;
-    width: 235px;
-    margin-top: 4px;
-    margin-left: 1px;
-}
-
-#logotopblock{
-    float: left;
+/*
+.logo10{
+    text-align: center;
+    font-size: 80px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    width: 800px;
+    height: 100px;
     position: absolute;
-    margin-left: 50px;
-    margin-top: -5px;
-    height: 60px;
-    border: 2px solid #ffffff;
-    transition: all .7s ease;
-    width: 240px;
+    transition: opacity .8s ease-in-out;
+    opacity: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
-#logotopblock:hover{
-    opacity: 0.4;
-    
+
+.logo10:hover{
+    opacity: 0.1;
 }
 
+.logo10:hover .nav{
+    visibility: visible;
+}
+
+.nav:hover{
+    opacity: 1;
+}
+
+.nav{
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    font-family: 'Neoteric';
+    width: 800px;
+    height: 100px;
+    font-size: 25px;
+    opacity: 1;
+    letter-spacing: 4px;
+    border-spacing: 30px 0px;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav a{
+    display: block;
+    opacity: 1;
+}
+
+.nav a:hover{
+    background: rgba(204, 204, 204, 0.0);
+    opacity: 1;
+}
+*/
+
+#about-nav{
+    transition: opacity .8s ease-in-out;  
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#about-nav:hover{
+    opacity: 0.6;
+}
+
+#beauty-nav{
+    transition: opacity .8s ease-in-out;  
+    color: whitesmoke;
+    text-decoration: none;   
+}
+
+#beauty-nav:hover{
+    opacity: 0.6;
+}
+
+#lifestyle-nav{
+    transition: opacity .8s ease-in-out;  
+    color: whitesmoke;
+    text-decoration: none;  
+}
+
+#lifestyle-nav:hover{
+    opacity: 0.6;
+}
+
+#nutrition-nav{
+    transition: opacity .8s ease-in-out;  
+    color: whitesmoke;
+    text-decoration: none;  
+}
+
+#nutrition-nav:hover{
+    opacity: 0.6;
+}
+
+#resources-nav{
+    transition: opacity .8s ease-in-out;  
+    color: whitesmoke;
+    text-decoration: none;   
+}
+
+#resources-nav:hover{
+    opacity: 0.6;
+}
+
+#left{
+    position: fixed;
+    height: 100%;
+    width: 130px;
+    top: 0;
+    background-color: black;
+    left: 8%;
+    background-color: rgba(0, 0, 0, 0.49);
+    border-left: 4px solid whitesmoke;  
+    border-right: 4px solid whitesmoke;  
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#right{
+    position: fixed;
+    height: 100%;
+    width: 130px;
+    top: 0;
+    background-color: black;
+    right: 8%;
+    background-color: rgba(0, 0, 0, 0.49);
+    border-left: 4px solid whitesmoke;  
+    border-right: 4px solid whitesmoke;  
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+/*
 #directory-font{
     font-family: 'Neoteric';
     color: white;
@@ -189,12 +414,12 @@ p{
     margin-left: 0px;
     height: 75px;
     width: 75px;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     transition: all .8s ease-in-out;
     opacity: .9;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.35);
-    border: 3px solid rgba(255, 255, 255, 0.9);
+    border: 3px solid rgba(255, 255, 255, 1);
 }
 
 .directory 
@@ -255,12 +480,13 @@ p{
 
 .directory:hover .directorybtn 
 {
-/*    background-color: rgba(70, 70, 70, 0.74); */
-/*    opacity: 0.9;
-    background-color: rgba(41, 41, 41, 0.5); */
+    background-color: rgba(70, 70, 70, 0.74); 
+    opacity: 0.9;
+    background-color: rgba(41, 41, 41, 0.5); 
     box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.35);
     border: 3px solid rgba(255, 255, 255, 0.9);
 }
+
 
 #idirectory-font{
     font-family: 'Neoteric';
@@ -295,16 +521,16 @@ p{
     border: 0px solid #ffffff;
     border-radius: 50%;
     font-size: 16px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 660px;
+    margin-left: 15px;
     height: 75px;
     width: 75px;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     transition: all .8s ease-in-out;
     opacity: .9;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.35);
-    border: 3px solid rgba(255, 255, 255, 0.9);
+    border: 3px solid rgba(255, 255, 255, 1);
 }
 
 .idirectory 
@@ -327,7 +553,7 @@ p{
     position: absolute;
     min-width: 100px;
     margin-left: -16px;
-    margin-top: -10px;
+    margin-top: 750px;
     position: fixed;
     opacity: 0;
     transition: opacity .8s ease-in-out;
@@ -367,25 +593,74 @@ p{
     box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.35);
     border: 3px solid rgba(255, 255, 255, 0.9);
 }
+*/
 
 #about-bar{
-    margin-top: 250px;
-    height: 550px;
-    width: 70%;
+    margin-top: 900px;
+    height: 700px;
+    width: 45%;
     background-color: black;
     position: relative;
-    background: rgba(0, 0, 0, 0.6);
     box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
+    border: 4px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+#main-bar{
+    margin-top: 900px;
+    height: 700px;
+    width: 45%;
+    background-color: black;
+    position: relative;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
+    border: 4px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+#main-end{
+    height: 80px;
+}
+
+#main-title{
+    opacity: 1;
+    color: whitesmoke;
+    font-family: 'modern';
+    font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 70px;
+    width: 450px;
+    height: 420px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
 }
 
 #beauty-bar-1{
-    margin-top: 250px;
-    height: 550px;
+    margin-top: 150px;
+    height: 750px;
     width: 70%;
     background-color: black;
     position: relative;
     background: rgba(0, 0, 0, 0.6);
     box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
+    border: 3px solid #ffffff;
+}
+
+#cover{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
 #beauty-bar-2{
@@ -1325,7 +1600,7 @@ p{
     width: 630px;
     height: 100px;
     position: absolute;
-    margin-top: -130px;
+    margin-top: 50px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -1334,10 +1609,10 @@ p{
 
 #vitamins-title{
     position: relative;
-    font-size: 80px; 
-    color: white; 
+    font-size: 50px; 
+    color: #ffffff; 
     font-family:'Neoteric';
-    opacity: 0.8;
+    opacity: 1;
     font-weight: bold;
     letter-spacing: 30px;  
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.42);
@@ -1409,7 +1684,7 @@ p{
     border-radius: 0%;
     opacity: 1;
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 170px;
     position: absolute;
 /*
     border: 3px solid #ffffff;
@@ -1494,7 +1769,7 @@ p{
     border-radius: 0%;
     opacity: 1;
     margin-left: 40px;
-    margin-top: 200px;
+    margin-top: 330px;
     position: absolute;
 /*
     border: 3px solid #ffffff;
@@ -1569,7 +1844,7 @@ p{
     border-radius: 0%;
     opacity: 1;
     margin-left: 40px;
-    margin-top: 360px;
+    margin-top: 490px;
     position: absolute;
 /*
     border: 3px solid #ffffff;
@@ -2576,15 +2851,53 @@ p{
     line-height: 60px;
 }
 
+.animate{
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;    
+    -webkit-animation: fadeIn 1.5s ease-in;
+    animation: fadeIn 1.5s ease-in;
+}
+
 .animate-in {
-    -webkit-animation: fadeIn 1s ease-in;
-    animation: fadeIn 1s ease-in;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+
+    animation: leftmove 2s;
+}
+
+.animate-in-1 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    
+    animation: rightmove 2s;
+}
+
+.animate-in-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;    
+
+    animation: topmove 2s;
 }
 
 .animate-out {
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
     opacity: 0;
+}
+
+@keyframes leftmove {
+    from {left: 0%;}
+    to {left: 8%;}
+}
+
+@keyframes rightmove {
+    from {right: 0%;}
+    to {right: 8%;}
+}
+
+@keyframes topmove {
+    from {top: -100%;}
+    to {top: 0%;}
 }
 
 @-webkit-keyframes fadeIn {

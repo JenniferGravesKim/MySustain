@@ -71,7 +71,7 @@ p{
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
-    background-color: #ffffff;
+    background-color: #000000;
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -162,6 +162,106 @@ p{
     text-align: center;
 }
 
+.about-text-title{
+    text-align: center;
+    font-size: 80px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    color: whitesmoke;
+    font-family: 'Neoteric';
+    opacity: 1;
+    letter-spacing: 60px;
+    transition: 1s ease-in-out;
+    position: absolute;
+    width: 445px;
+    height: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.beauty-text-title{
+    text-align: center;
+    font-size: 80px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    color: whitesmoke;
+    font-family: 'Neoteric';
+    opacity: 1;
+    letter-spacing: 60px;
+    transition: 1s ease-in-out;
+    position: absolute;
+    width: 530px;
+    height: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.lifestyle-text-title{
+    text-align: center;
+    font-size: 80px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    color: whitesmoke;
+    font-family: 'Neoteric';
+    opacity: 1;
+    letter-spacing: 60px;
+    transition: 1s ease-in-out;
+    position: absolute;
+    width: 775px;
+    height: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.nutrition-text-title{
+    text-align: center;
+    font-size: 80px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    color: whitesmoke;
+    font-family: 'Neoteric';
+    opacity: 1;
+    letter-spacing: 60px;
+    transition: 1s ease-in-out;
+    position: absolute;
+    width: 805px;
+    height: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.resources-text-title{
+    text-align: center;
+    font-size: 80px;  
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    color: whitesmoke;
+    font-family: 'Neoteric';
+    opacity: 1;
+    letter-spacing: 60px;
+    transition: 1s ease-in-out;
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
 .main-text-box{
     width: 890px;
     height: 130px;
@@ -190,6 +290,26 @@ p{
 }
 
 .main:hover .main-text-title{
+    opacity: 0;
+}
+
+.main:hover .about-text-title{
+    opacity: 0;
+}
+
+.main:hover .beauty-text-title{
+    opacity: 0;
+}
+
+.main:hover .lifestyle-text-title{
+    opacity: 0;
+}
+
+.main:hover .nutrition-text-title{
+    opacity: 0;
+}
+
+.main:hover .resources-text-title{
     opacity: 0;
 }
 
@@ -316,6 +436,13 @@ p{
     transition: opacity .8s ease-in-out;  
     color: whitesmoke;
     text-decoration: none;   
+}
+
+#beauty-nav-click{
+    transition: opacity .8s ease-in-out;  
+    color: whitesmoke;
+    text-decoration: none;
+    opacity: 0.6;
 }
 
 #beauty-nav:hover{
@@ -619,6 +746,19 @@ p{
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+}
+
+#beauty-bar{
+    height: 700px;
+    width: 45%;
+    background-color: black;
+    position: relative;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
+    border: 4px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
 #main-end{
@@ -655,10 +795,10 @@ p{
 
 #cover{
     position: absolute;
-    margin-top: 100px;
-    margin-left: 400px;
+    margin-top: 77px;
+    margin-left: 0px;
     height: 500px;
-    width: 500px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0);
 
 }
@@ -829,25 +969,26 @@ p{
 }
 
 #beauty-box{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
     height: 50px;
     width: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .microbeads-button{
-    width: 200px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     border-radius: 0%;
     transition: .8s ease-in-out;
     opacity: 1;
-    margin-left: 0px;
-    margin-top: 0px;
     position: absolute;
     border: 3px solid #ffffff;
     background: rgba(255, 255, 255, 0); 
     box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.4);
+    margin-top: 0px;
 }
 
 .default-text-box{
@@ -855,31 +996,29 @@ p{
     font-size: 30px;
     width: 400px;
     height: 100px;
-    padding-top: 100px;
-    margin-left: 400px;
+    
     line-height: 50px;
     visibility: visible;
     transition: .8s ease-in-out;
     opacity: 1;
     display: inline-block;
-    color: white;
+    color: whitesmoke;
     background: rgba(255, 255, 255, 0); 
 }
 
 .microbeads{
-    width: 206px;
-    height: 126px;
+    width: 180px;
+    height: 50px;
     border-radius: 0%;
     opacity: 1;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
     position: absolute;
     background: rgba(255, 255, 255, 0);
-    line-height: 60px;
 }
 
 .microbeads-text-title{
-    font-size: 21px;
+    font-size: 20px;
     color: white;
     font-family: 'Neoteric';
     line-height: 20px;
@@ -887,14 +1026,15 @@ p{
     font-weight: bold;
     letter-spacing: 5px;
     transition: .6s ease-in-out;
+    line-height: 50px;
 }
 
 .microbeads-text-box{
-    width: 500px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    margin-left: 380px;
-    margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 100px;
     visibility: hidden;
     opacity: 0;
     transition: opacity .8s ease-in-out;
@@ -935,8 +1075,8 @@ p{
 }
 
 .acidity-button{
-    width: 200px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     border-radius: 0%;
     transition: .8s ease-in-out;
     opacity: 1;
@@ -949,18 +1089,18 @@ p{
 }
 
 .acidity{
-    width: 206px;
-    height: 126px;
+    width: 180px;
+    height: 50px;
     border-radius: 0%;
     opacity: 1;
-    margin-left: 40px;
-    margin-top: 200px;
+    margin-left: 235px;
+    margin-top: 20px;
     position: absolute;
 /*
     border: 3px solid #ffffff;
 */
     background: rgba(255, 255, 255, 0);
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .acidity-text-title{
@@ -975,11 +1115,11 @@ p{
 }
 
 .acidity-text-box{
-    width: 500px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    margin-left: 380px;
-    margin-top: -150px;
+    margin-left: 0px;
+    margin-top: 100px;
     visibility: hidden;
     opacity: 0;
     transition: opacity .8s ease-in-out;
@@ -993,6 +1133,16 @@ p{
 
 .acidity:hover .acidity-text-title{
     opacity: .6;
+}
+
+.acidity:hover .default-text-box{
+    opacity: 0;
+    visibility: visible;   
+}
+
+.default-text-box:hover{
+    opacity: 1;
+    visibility: visible;
 }
 
 .acidity-text: hover{
@@ -1010,8 +1160,8 @@ p{
 }
 
 .treatments-button{
-    width: 200px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     border-radius: 0%;
     transition: .8s ease-in-out;
     opacity: 1;
@@ -1024,18 +1174,18 @@ p{
 }
 
 .treatments{
-    width: 206px;
-    height: 126px;
+    width: 180px;
+    height: 50px;
     border-radius: 0%;
     opacity: 1;
-    margin-left: 40px;
-    margin-top: 360px;
+    margin-left: 440px;
+    margin-top: 20px;
     position: absolute;
 /*
     border: 3px solid #ffffff;
 */
     background: rgba(255, 255, 255, 0);
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .treatments-text-title{
@@ -1050,11 +1200,11 @@ p{
 }
 
 .treatments-text-box{
-    width: 500px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    margin-left: 380px;
-    margin-top: -300px;
+    margin-left: 0px;
+    margin-top: 100px;
     visibility: hidden;
     opacity: 0;
     transition: opacity .8s ease-in-out;
@@ -1068,6 +1218,16 @@ p{
 
 .treatments:hover .treatments-text-title{
     opacity: .6;
+}
+
+.treatments:hover .default-text-box{
+    opacity: 0;
+    visibility: visible;   
+}
+
+.default-text-box:hover{
+    opacity: 1;
+    visibility: visible;
 }
 
 .treatments-text: hover{
@@ -2839,16 +2999,23 @@ p{
 }
 
 #resources-text-box{
-    padding-top: 50px;
-    width: 690px;
-    position: relative;
+    opacity: 1;
+    letter-spacing: 5px;
+    width: 450px;
+    height: 420px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
 }
 
 #resources-text{
     font-size: 25px;
-    color: white;
+    color: whitesmoke;
     font-family: 'Modern';
-    line-height: 60px;
+    line-height: 70px;
 }
 
 .animate{
@@ -4184,13 +4351,6 @@ p{
     opacity: 1;
 }
 
-#about-img{
-    margin-top: 70px;
-}
-
-#resources-img{
-    margin-top: 70px;
-}
 
 
 

@@ -40,8 +40,13 @@ p{
     opacity: 1;
 }*/
 
+body::-webkit-scrollbar{
+    width: 0em;
+    height: 0em;
+}
+
 .mainbod{
-    background: url("bg55.jpg"); 
+    background: url("bg59.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -56,7 +61,7 @@ p{
 }
 
 .about-body{
-    background: url("bg55.jpg"); 
+    background: url("bg59.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -67,7 +72,7 @@ p{
 }
 
 .beauty-body{
-    background: url("bg55.jpg"); 
+    background: url("bg59.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -78,7 +83,7 @@ p{
 }
 
 .lifestyle-body{
-    background: url("bg55.jpg"); 
+    background: url("bg59.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -89,7 +94,7 @@ p{
 }
 
 .nutrition-body{
-    background: url("bg55.jpg"); 
+    background: url("bg59.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
@@ -100,18 +105,18 @@ p{
 }
 
 .resources-body{
-    background: url("bg55.jpg"); 
+    background: url("bg59.jpg"); 
 /*
     background-color: rgba(68, 128, 100, 0.34);
 */
     background-color: #000000;
-    background-size: 100% 100%; 
+    background-size: 100% 102%; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .main-button{
-    width: 800px;
+    width: 100%;
     height: 130px;
     position: fixed;
     opacity: 1;
@@ -123,14 +128,20 @@ p{
 }
 
 #main-table{
-    border-spacing: 49px 0px;
-    height: 130px;
-    width: 800px;
+    line-height: 0px;
+    height: 100%;
+    width: 65%;
     transition: .8s ease-in-out; 
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 9%;
 }
 
 .main{
-    width: 980px;
+    width: 100%;
     height: 130px;
     opacity: 1;
     top: 0;
@@ -144,22 +155,32 @@ p{
 
 .main-text-title{
     text-align: center;
-    font-size: 80px;  
+    font-size: 50px;  
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
     color: whitesmoke;
-    font-family: 'Neoteric';
+    font-family: 'neoteric';
     opacity: 1;
-    letter-spacing: 60px;
+    letter-spacing: 50px;
     transition: 1s ease-in-out;
     position: absolute;
-    width: 800px;
-    height: 100px;
+    width: 100%;
+    height: 65px;
     margin: auto;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     text-align: center;
+    font-weight: bold;
+/*
+    animation: textclose 2.5s;
+    animation-delay: 0s;
+*/
+}
+
+@keyframes textclose{
+    from {letter-spacing: 200px;}
+    to {letter-spacing: 50px;}     
 }
 
 .about-text-title{
@@ -167,7 +188,7 @@ p{
     font-size: 80px;  
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
     color: whitesmoke;
-    font-family: 'Neoteric';
+    font-family: 'neoteric';
     opacity: 1;
     letter-spacing: 60px;
     transition: 1s ease-in-out;
@@ -180,6 +201,7 @@ p{
     right: 0;
     left: 0;
     text-align: center;
+    font-weight: 0;
 }
 
 .beauty-text-title{
@@ -263,7 +285,7 @@ p{
 }
 
 .main-text-box{
-    width: 890px;
+    width: 100%;
     height: 130px;
     position: fixed;
     margin: auto;
@@ -360,6 +382,7 @@ p{
     bottom: 0;
     left: 0;
     right: 0;
+    pointer-events: auto;
 }
 
 /*
@@ -422,87 +445,141 @@ p{
 }
 */
 
-#about-nav{
-    transition: opacity .8s ease-in-out;  
+#about-nav{ 
     color: whitesmoke;
     text-decoration: none;
+    margin-top: 0px;
+    position: absolute;
+    transition: all 0.8s ease;
+    width: 10%;
 }
+
 
 #about-nav:hover{
     opacity: 0.6;
+    margin-top: -10px;
+    height: 20%;
+    width: 10%;
 }
 
 #beauty-nav{
-    transition: opacity .8s ease-in-out;  
-    color: whitesmoke;
-    text-decoration: none;   
-}
-
-#beauty-nav-click{
-    transition: opacity .8s ease-in-out;  
     color: whitesmoke;
     text-decoration: none;
-    opacity: 0.6;
+    margin-top: 0px;
+    position: absolute;
+    transition: all 0.8s ease; 
+    width: 10%;
 }
 
 #beauty-nav:hover{
     opacity: 0.6;
+    margin-top: -10px;
+    height: 20%;
+    width: 10%;
 }
 
 #lifestyle-nav{
-    transition: opacity .8s ease-in-out;  
     color: whitesmoke;
-    text-decoration: none;  
+    text-decoration: none;
+    margin-top: 0px;
+    position: absolute;
+    transition: all 0.8s ease; 
+    width: 10%;
 }
 
 #lifestyle-nav:hover{
     opacity: 0.6;
+    margin-top: -10px;
+    height: 20%;
+    width: 10%;
 }
 
 #nutrition-nav{
-    transition: opacity .8s ease-in-out;  
     color: whitesmoke;
-    text-decoration: none;  
+    text-decoration: none;
+    margin-top: 0px;
+    position: absolute;
+    transition: all 0.8s ease;
+    width: 15%;
 }
 
 #nutrition-nav:hover{
     opacity: 0.6;
+    margin-top: -10px;
+    height: 20%;
+    width: 15%;
 }
 
 #resources-nav{
-    transition: opacity .8s ease-in-out;  
     color: whitesmoke;
-    text-decoration: none;   
+    text-decoration: none;
+    margin-top: 0px;
+    position: absolute;
+    transition: all 0.8s ease;
+    width: 20%;
 }
 
 #resources-nav:hover{
     opacity: 0.6;
+    margin-top: -10px;
+    height: 20%;
+    width: 20%;
 }
 
 #left{
     position: fixed;
-    height: 100%;
+    height: 500%;
     width: 130px;
-    top: 0;
+    top: -210%;
     background-color: black;
-    left: 8%;
+    left: 5%;
     background-color: rgba(0, 0, 0, 0.49);
     border-left: 4px solid whitesmoke;  
-    border-right: 4px solid whitesmoke;  
+    border-right: 4px solid whitesmoke;   
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+    transform: rotate(30deg);
+}
+
+#left2{
+    position: fixed;
+    height: 500%;
+    width: 130px;
+    top: -210%;
+    background-color: black;
+    left: -5%;
+    background-color: rgba(0, 0, 0, 0.49);
+    border-left: 4px solid whitesmoke;  
+    border-right: 4px solid whitesmoke;   
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+    transform: rotate(150deg);
 }
 
 #right{
     position: fixed;
-    height: 100%;
+    height: 500%;
     width: 130px;
-    top: 0;
+    top: -210%;
     background-color: black;
-    right: 8%;
+    right: 5%;
     background-color: rgba(0, 0, 0, 0.49);
     border-left: 4px solid whitesmoke;  
-    border-right: 4px solid whitesmoke;  
+    border-right: 4px solid whitesmoke;   
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+    transform: rotate(150deg);
+}
+
+#right2{
+    position: fixed;
+    height: 500%;
+    width: 130px;
+    top: -210%;
+    background-color: black;
+    right: -5%;
+    background-color: rgba(0, 0, 0, 0.49);
+    border-left: 4px solid whitesmoke;  
+    border-right: 4px solid whitesmoke;   
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+    transform: rotate(30deg);
 }
 
 /*
@@ -798,7 +875,7 @@ p{
     margin-top: 77px;
     margin-left: 0px;
     height: 500px;
-    width: 100%;
+    width: 99%;
     background-color: rgba(0, 0, 0, 0);
 
 }
@@ -842,15 +919,103 @@ p{
     box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
 }
 
-#resources-bar{
-    margin-top: 250px;
-    height: 550px;
-    width: 70%;
+.arrow-{
+    margin-top: 1082px;
+    margin-left: -5px;
+    height: 130px;
+    width: 100%;
+    opacity: 1;
+    position: fixed;
+    transition: all 0.8s ease;
+    pointer-events: none;
+}
+
+.arrow-:hover{
+    pointer-events: none;
+
+}
+
+.arrow-:hover + .resources-bar{
+    margin-top: 200%;
+    
+}
+
+
+
+@keyframes arrowright {
+    from {left: 0%;}
+    to {left: 0%;}
+}
+
+@keyframes scrollup{
+    from {margin-top: 0%;}
+    top {margin-top: 100%;}
+}
+
+.arrow2-{
+    background: url(arrow2.png) 0px 0px;
+    background-size: 90px;
+    margin-top: 1100px;
+    margin-left: 130px;
+    height: 90px;
+    width: 90px;
+    opacity: 1;
+    position: absolute;
+    transition: all 0.8s ease;
+    animation-fill-mode: forwards;
+}
+
+
+.resources-bar{
+    height: 700px;
+    width: 668px;
+    background-color: black;
+    position: absolute;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
+    border: 4px solid whitesmoke;
+    margin-left: 400px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+    margin-top: 2000px;
+    transition: all 2s ease;
+}
+
+#middle{
+    margin-top: -708px;
+    height: 700px;
+    width: 105%;
+    position: absolute;
+    margin-left: 3000px;
+    background-color: rgba(0, 0, 0, 0); 
+    text-align: center;    
+}
+
+.resources-bar-2{
+    margin-top: -708px;
+    margin-left: 2000px;
+    height: 700px;
+    width: 45%;
     background-color: black;
     position: relative;
-    background: rgba(0, 0, 0, 0.6);
     box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
+    border: 4px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
 }
+
+.resources-bar-3{
+    margin-top: -708px;
+    margin-left: 3500px;
+    height: 700px;
+    width: 45%;
+    background-color: black;
+    position: relative;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.4);
+    border: 4px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+}
+
 
 #about-title-box{
     text-align: center;
@@ -991,19 +1156,146 @@ p{
     margin-top: 0px;
 }
 
-.default-text-box{
-    font-family: Modern;
-    font-size: 30px;
-    width: 400px;
-    height: 100px;
-    
+.default-text-box-skin{
+    font-family: 'Neoteric';
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
     line-height: 50px;
     visibility: visible;
     transition: .8s ease-in-out;
     opacity: 1;
     display: inline-block;
     color: whitesmoke;
+    letter-spacing: 10px;
     background: rgba(255, 255, 255, 0); 
+}
+
+.default-title-skin:hover{
+
+}
+
+.default-text-box-skin:hover .default-table{
+    visibility: visible;
+    opacity: 1;
+}
+
+.default-title-skin{
+    transition: .8s ease-in-out;
+}
+
+.microbeads-{
+    font-size: 20px;
+    font-family: 'Neoteric';
+    border: 3px solid whitesmoke;
+    width: 100px;
+    height: 30px;
+    transition: .8s ease-in-out;
+}
+
+.microbeads-:hover{
+    opacity: 1;
+}
+
+.microbeads-:hover .microbeads-text-box{
+    visibility: visible;
+    opacity: 1;
+}
+
+.nutrition-text{
+    font-size: 15px;
+    color: white;
+    font-family: 'Modern';
+    display: block;
+    opacity: 1;
+    transition: .8s ease-in-out;
+    line-height: 35px;
+    letter-spacing: 3px;
+}
+
+.line1{
+    margin-top: -5px;
+    width: 10px;
+    height: 70px;
+    border-right: 3px solid whitesmoke;
+    transform: rotate(60deg);
+    margin-left: 200px;
+    position: absolute;
+}
+
+.line2{
+    margin-top: 15px;
+    width: 10px;
+    height: 38px;
+    border-right: 3px solid whitesmoke;
+    transform: rotate(0deg);
+    margin-left: 320px;
+    position: absolute;    
+}
+
+.line3{
+    margin-top: -5px;
+    width: 10px;
+    height: 70px;
+    border-right: 3px solid whitesmoke;
+    transform: rotate(120deg);
+    margin-left: 440px;
+    position: absolute;
+}
+
+.microbeads-text-box{
+    width: 90%;
+    position: absolute;
+    margin-top: 40px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    text-align: left;
+    font-size: 10px;
+}
+
+.acidity-{
+    font-size: 20px;
+    font-family: 'Neoteric';
+    border: 3px solid whitesmoke;
+    width: 150px;
+    height: 30px;
+    transition: .8s ease-in-out;
+}
+
+.acidity-:hover{
+    opacity: 1;
+}
+
+.treatments-{
+    font-size: 20px;
+    font-family: 'Neoteric';
+    border: 3px solid whitesmoke;
+    width: 150px;
+    height: 30px;
+    transition: .8s ease-in-out;
+}
+
+.treatments-:hover{
+    opacity: 1;
+}
+
+.default-table{
+    margin-top: 70px;
+    height: 60px;
+    width: 100%;
+    border-spacing: 30px 0px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s ease-in-out;
+}
+
+.default-box{
+    letter-spacing: 5px;
+    width: 100%;
 }
 
 .microbeads{
@@ -1029,17 +1321,6 @@ p{
     line-height: 50px;
 }
 
-.microbeads-text-box{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin-left: 0px;
-    margin-top: 100px;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .8s ease-in-out;
-    text-align: center;
-}
 
 .microbeads:hover .microbeads-text-box{
     visibility: visible;
@@ -1282,7 +1563,7 @@ p{
 }
 
 .toulene-text-box{
-    width: 500px;
+    width: 100px;
     height: 200px;
     position: absolute;
     margin-left: 380px;
@@ -1354,7 +1635,7 @@ p{
 }
 
 .formaldehyde-text-box{
-    width: 500px;
+    width: 100px;
     height: 200px;
     position: absolute;
     margin-left: 380px;
@@ -1426,7 +1707,7 @@ p{
 }
 
 .testing-text-box{
-    width: 500px;
+    width: 100px;
     height: 200px;
     position: absolute;
     margin-left: 380px;
@@ -1498,7 +1779,7 @@ p{
 }
 
 .silicone-text-box{
-    width: 500px;
+    width: 100px;
     height: 200px;
     position: absolute;
     margin-left: 380px;
@@ -1570,7 +1851,7 @@ p{
 }
 
 .sulfate-text-box{
-    width: 500px;
+    width: 100px;
     height: 200px;
     position: absolute;
     margin-left: 380px;
@@ -1642,7 +1923,7 @@ p{
 }
 
 .surfactants-text-box{
-    width: 500px;
+    width: 100px;
     height: 200px;
     position: absolute;
     margin-left: 380px;
@@ -1883,16 +2164,6 @@ p{
 
 .macro:hover .macro-text-title{
     opacity: .6;
-}
-
-.nutrition-text{
-    font-size: 20px;
-    color: white;
-    font-family: 'Modern';
-    line-height: 60px;
-    display: block;
-    opacity: 1;
-    transition: .8s ease-in-out;
 }
 
 .macro-text: hover{
@@ -3025,25 +3296,39 @@ p{
     animation: fadeIn 1.5s ease-in;
 }
 
-.animate-in {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+.animate-in-left {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
 
-    animation: leftmove 2s;
+    animation: leftmove 2.5s;
 }
 
-.animate-in-1 {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+.animate-in-right {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     
-    animation: rightmove 2s;
+    animation: rightmove 2.5s;
 }
 
-.animate-in-2 {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;    
+.animate-in-left2 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    
+    animation: leftmove2 2.5s;
+}
 
-    animation: topmove 2s;
+.animate-in-right2 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    
+    animation: rightmove2 2.5s;
+}
+
+.animate-in-top {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;    
+
+    animation: topmove 2.5s;
 }
 
 .animate-out {
@@ -3053,13 +3338,23 @@ p{
 }
 
 @keyframes leftmove {
-    from {left: 0%;}
-    to {left: 8%;}
+    from {left: -25%;}
+    to {left: 5%;}
 }
 
 @keyframes rightmove {
-    from {right: 0%;}
-    to {right: 8%;}
+    from {right: -25%;}
+    to {right: 5%;}
+}
+
+@keyframes leftmove2 {
+    from {left: -25%;}
+    to {left: -5%;}
+}
+
+@keyframes rightmove2 {
+    from {right: -25%;}
+    to {right: -5%;}
 }
 
 @keyframes topmove {
